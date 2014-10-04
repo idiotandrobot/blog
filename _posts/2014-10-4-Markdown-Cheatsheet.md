@@ -1,5 +1,5 @@
 ---
 layout: post
 title: Markdown Cheatsheet
-permalink: ../https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+external-url: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ---
