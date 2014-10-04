@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Markdown Cheatsheet(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+title: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 ---
