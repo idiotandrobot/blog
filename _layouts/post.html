@@ -3,7 +3,13 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  
+  # Redundant as the post should never be reached
+  {% if post.external-url %}
+    <h1><a href="{{ post.external-url }}">{{ post.title }}</a></h1>
+  {% else %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
 
   <div class="entry">
     {{ content }}
