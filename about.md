@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Mainly C# developer
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+Mainly C# developer who doesn't like to provide more information about himself. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+No
