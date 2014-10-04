@@ -8,6 +8,10 @@ layout: default
       
       {% if post.external-url %}
         <h1><a href="{{ post.external-url }}">{{ post.title }}</a></h1>
+        
+        <div class="entry">
+          {{ post.content }}
+        </div>
       {% else %}
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
   
@@ -15,7 +19,6 @@ layout: default
           {{ post.content | truncatewords:40}}
           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </div>
-  
       {% endif %}
 
       <div class="date">
