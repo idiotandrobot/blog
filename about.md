@@ -8,7 +8,7 @@ Mainly C# developer
 
 ### More Information
 
-Mainly C# developer who doesn't like to provide more information about himself. 
+Experimenting with Jekyll on GitHub Pages.
 
 ### Contact me
 
