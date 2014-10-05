@@ -3,7 +3,7 @@ layout: post
 title: Setting up a blog using Jekyll on GitHub
 ---
 
-There are various ways of doing this. This one has been done by forking the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub. 
+There are various ways of doing this. [This one](https://github.com/idiotandrobot/blog) has been done by forking the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub. 
 
 [This article](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) by the author of Jekyll Now is a pretty good guide and the one I used.
 
