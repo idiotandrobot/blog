@@ -12,7 +12,7 @@ permalink: /read/
 - **17-Aug** The Blind Giant by Nick Harkaway
 - **2-Aug** Neptune's Brood by Charles Stross
 - **8-Jul** Ancillary Justice by Ann Leckie
-- **25 Jun** Spook Country by William Gibson
+- **25-Jun** Spook Country by William Gibson
 - **13-May** Deep Sea and Foreign Going by Rose George
 - **2-May** Code by Charles Petzold
 - **25-Mar** On the Steel Breeze by Alastair Reynolds
@@ -43,21 +43,21 @@ permalink: /read/
 **2012**
 
 - **25-Nov** Embassytown by China Miéville
-- **12-Nov** The Drowned Cities by Paolo Bacigalupi
+- **12-Nov** The Drowned Cities by Paolo Bacigalupi
 - **08-Sep** A Clash of Kings by George R. R. Martin
-- **13-Aug** A Game of Thrones by George R. R. Martin
-- **02-Jul** River Of Gods by Ian Mcdonald
+- **13-Aug** A Game of Thrones by George R. R. Martin
+- **02-Jul** River Of Gods by Ian Mcdonald
 - **01-May** The Quantum Thief by Hannu Rajaniemi
-- **22-Mar** Homicide: A Year On The Killing Streets by David Simon
-- **12-Feb** Wool Omnibus Edition (Wool 1 - 5) by Hugh Howey
+- **22-Mar** Homicide: A Year On The Killing Streets by David Simon
+- **12-Feb** Wool Omnibus Edition (Wool 1 - 5) by Hugh Howey
 - **06-Feb** Map of a Nation by Rachel Hewitt
 - **08-Jan** The Jennifer Morgue by Charles Stross
 
 **2011**
 
-- **07-Dec** Ship Breaker by Paolo Bacigalupi
+- **07-Dec** Ship Breaker by Paolo Bacigalupi
 - **02-Nov** House of Suns by Alastair Reynolds
-- **20-Aug** The Crimson Petal and the White by Michel Faber
+- **20-Aug** The Crimson Petal and the White by Michel Faber
 - **31-May** Surface Detail by Iain M. Banks
 - **27-May** Game of Cages by Harry Connolly
 - **14-May** Zoo City by Lauren Beukes
