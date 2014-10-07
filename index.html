@@ -8,23 +8,19 @@ layout: default
       
       {% if post.external-url %}
         <h1><a href="{{ post.external-url }}">{{ post.title }}</a></h1>
-        
+        {% include post/meta.html %}
         <div class="entry">
           {{ post.content }}
           <span class="read-more"><b>External Link</b></span>
         </div>
       {% else %}
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-  
+        {% include post/meta.html %}
         <div class="entry">
           {{ post.content | truncatewords:40}}
           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </div>
       {% endif %}
-
-      <!--div class="date">
-        {{ post.date | date: "%e %B %Y" }}
-      </div-->
 
     </article>
   {% endfor %}
