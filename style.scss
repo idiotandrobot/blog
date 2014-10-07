@@ -308,6 +308,14 @@ footer {
 .meta .date:before { content: "\f073" }
 .meta .tags:before { content: "\f02c" }
 .meta .edit:before { content: "\f044" }
+
+#page-navigation {
+    font-family: arial;
+    width: 100%;
+}
+#page-navigation div { display: inline-block }
+#page-navigation div.next { float: right }
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
