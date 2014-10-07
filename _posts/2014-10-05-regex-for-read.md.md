@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RegEx for read.md
+tags: [regex]
 date: 2014-10-05 17:30 +0100
 ---
 A regex to parse [read.md](https://github.com/idiotandrobot/blog/blob/gh-pages/read.md)
