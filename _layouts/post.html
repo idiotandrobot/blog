@@ -14,6 +14,22 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+  
+  <div id="page-navigation"> 
+        <div class="previous"> 
+        {% if page.previous.url %} 
+                <a href="{{page.previous.url}}" title="Previous Post: 
+{{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+        {% endif %} 
+        </div>
+
+        <div class="next"> 
+        {% if page.next.url %} 
+               <a href="{{page.next.url}}" title="next Post: 
+{{page.next.title}}">{{page.next.title}} &raquo; </a> 
+        {% endif %} 
+        </div>
+</div> 
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
