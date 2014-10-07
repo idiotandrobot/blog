@@ -283,10 +283,31 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-
+// Section where I just cute and paste until it works
 .meta {
     margin-left: 4px;
     color: #999;
+}
+.meta a {
+    color: #999;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.meta a:hover { color: #666 }
+.meta .date,
+.meta .tags,
+.meta .comments,
+.meta .edit { padding-right: 10px }
+.meta .date:before,
+.meta .tags:before,
+.meta .comments:before,
+.meta .edit:before {
+    color: #ccc;
+    font: 1.3em FontAwesome;
+    left: 0;
+    margin-right: 5px;
 }
 .meta .date:before { content: "\f073" }
 .meta .tags:before { content: "\f02c" }
