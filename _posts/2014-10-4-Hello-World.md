@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up a blog using Jekyll on GitHub
-tags: [blog jekyll]
+tags: [blog][jekyll]
 date: 2014-10-04 11:35 +0100
 ---
 
