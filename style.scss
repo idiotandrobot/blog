@@ -309,6 +309,10 @@ footer {
 .meta .tags:before { content: "\f02c" }
 .meta .edit:before { content: "\f044" }
 
+.page-navigation .previous .previousa:before { content: "\f02c" }
+.page-navigation .next .nexta:after { content: "\f054" }
+
+
 #page-navigation {
     font-family: arial;
     width: 100%;
