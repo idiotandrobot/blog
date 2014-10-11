@@ -316,16 +316,16 @@ footer {
 #page-navigation div { display: inline-block }
 #page-navigation div.next { float: right }
 
-#page-navigation .nexta
-#page-navigation .previousa {
+#page-navigation div.previous a
+#page-navigation div.next a {
     color: #ccc;
     font: 1.3em FontAwesome;
     left: 0;
     margin-right: 5px;
 }
 
-#page-navigation .previousa:before { content: "\f053" }
-#page-navigation .nexta:after { content: "\f054" }
+#page-navigation div.previous a:before { content: "\f053" }
+#page-navigation div.next a:after { content: "\f054" }
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
