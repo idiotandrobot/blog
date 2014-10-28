@@ -1,6 +1,5 @@
 ---
 layout: post
-title: RegEx for read.md
 tags: [markdown regex]
 date: 2014-10-05 17:30 +0100
 ---
