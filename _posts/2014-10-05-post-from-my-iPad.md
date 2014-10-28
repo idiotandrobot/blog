@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Post from my iPad
 tags: [test]
 date: 2014-10-05 11:07 +0100
 ---
