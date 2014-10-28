@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Posted from the Post link
 tags: [test]
 date: 2014-10-07 11:25 +0100
 ---
