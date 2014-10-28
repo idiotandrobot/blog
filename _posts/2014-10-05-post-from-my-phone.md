@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Post from my phone
 tags: [test]
 date: 2014-10-05 10:54 +1
 ---
