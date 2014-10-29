@@ -288,9 +288,14 @@ footer {
 .meta .history,
 .meta .edit { padding-right: 10px }
 .meta .date:before,
-.meta .tags:before,
-.meta .history:before,
-.meta .edit:before {
+.meta .tags:before {
+    color: #ccc;
+    font: 1.3em FontAwesome;
+    left: 0;
+    margin-right: 5px;
+},
+.meta .history a:before,
+.meta .edit a:before {
     color: #ccc;
     font: 1.3em FontAwesome;
     left: 0;
