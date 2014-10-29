@@ -6,12 +6,14 @@ tags: [jekyll fontawesome]
 
 This requires a local copy of the font files and some @font-face configuration in the css:
 
-`@font-face {`
-`    font-family: 'FontAwesome';`
-`    src: url("/blog/font/fontawesome-webfont.eot");`
-`    src: url("/blog/font/fontawesome-webfont.eot?#iefix")` `format("embedded-opentype"),url("/blog/font/fontawesome-webfont.woff")` `format("woff"),url("/blog/font/fontawesome-webfont.ttf")` `format("truetype"),url("/blog/font/fontawesome-webfont.svgz#FontAwesomeRegular")` `format("svg"),url("/blog/font/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");`
-`    font-weight: normal;`
-`    font-style: normal;`
+```
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("/blog/font/fontawesome-webfont.eot");
+    src: url("/blog/font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),url("/blog/font/fontawesome-webfont.woff") format("woff"),url("/blog/font/fontawesome-webfont.ttf") format("truetype"),url("/blog/font/fontawesome-webfont.svgz#FontAwesomeRegular") format("svg"),url("/blog/font/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+```
 
 This works brilliantly for *that version* of Font Awesome but goes wrong when you then try and reference a font from anewer version.
 
