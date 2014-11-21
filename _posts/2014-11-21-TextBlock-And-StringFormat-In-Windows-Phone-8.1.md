@@ -5,7 +5,7 @@ tags: [wp81 xaml]
 ---
 In trying to create a custom control for a Windows Phone 8.1 project I was having an odd problem where StringFormat didn't seem to be supported by the TextBlock control Text property any more so the following style raised an error against `StringFormat=T`: 
 
-```c#
+```csharp
 <Style TargetType="controls:Clock">
 <Setter Property="Template">
 <Setter.Value>
