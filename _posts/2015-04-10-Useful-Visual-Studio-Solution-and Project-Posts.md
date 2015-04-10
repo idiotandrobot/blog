@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Useful Visual Studio Solution and Project Posts
+tags: [visualstudio]
 ---
 [Using a common intermediate and output directory for your solution](http://blogs.msdn.com/b/kirillosenkov/archive/2015/04/04/using-a-common-intermediate-and-output-directory-for-your-solution.aspx)
 
