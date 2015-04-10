@@ -3,7 +3,7 @@ layout: post
 title: TextBlock StringFormat Support in Windows Phone 8.1 Projects
 tags: [wp81 xaml]
 redirect_from:
- - /:year/:month/:day/:title/
+ - /2014/11/21/2014-11-21-TextBlock-And-StringFormat-In-Windows-Phone-8.1
 ---
 In trying to create a custom control for a Windows Phone 8.1 project I was having an odd problem where StringFormat didn't seem to be supported by the TextBlock control Text property any more so the following style raised an error against `StringFormat=T`: 
 
