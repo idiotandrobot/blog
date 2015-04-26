@@ -9,6 +9,5 @@ The Dropbox folder path is stored in host.db in the Dropbox ApplicationData fold
 
 via 
 
-[Stack Overflow: How do I programmatically locate my Dropbox folder using C#?](http://stackoverflow.com/questions/9660280/)
-
-[Stack Overflow: Get OneDrive path in Windows](http://stackoverflow.com/questions/26771265/)
+- [Stack Overflow: How do I programmatically locate my Dropbox folder using C#?](http://stackoverflow.com/questions/9660280/)
+- [Stack Overflow: Get OneDrive path in Windows](http://stackoverflow.com/questions/26771265/)
