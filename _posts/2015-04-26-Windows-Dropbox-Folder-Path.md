@@ -5,7 +5,7 @@ links:
  http://stackoverflow.com/questions/9660280/how-do-i-programmatically-locate-my-dropbox-folder-using-c
  https://gist.github.com/idiotandrobot/67a630abfef6097fe93d
 ---
-```c#
+{% highlight c# %}
 using System;
 using System.IO;
 using System.Text;
@@ -31,4 +31,4 @@ public static class Dropbox
       return folderPath;
   }
 }
-```
+{% endhighlight %}
