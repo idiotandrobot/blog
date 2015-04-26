@@ -1,7 +1,9 @@
 ---
 layout: post
 tags: [c# dropbox]
-links [http://stackoverflow.com/questions/9660280/how-do-i-programmatically-locate-my-dropbox-folder-using-c https://gist.github.com/idiotandrobot/67a630abfef6097fe93d]
+links: 
+ http://stackoverflow.com/questions/9660280/how-do-i-programmatically-locate-my-dropbox-folder-using-c
+ https://gist.github.com/idiotandrobot/67a630abfef6097fe93d
 ---
 ```c#
 using System;
