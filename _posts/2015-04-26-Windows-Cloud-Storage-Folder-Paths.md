@@ -1,0 +1,12 @@
+---
+layout: post
+tags: [c# dropbox onedrive]
+---
+The Dropbox folder path is stored in host.db in the Dropbox ApplicationData folder.
+The OneDrive folder path is stored in the registry. Currently under SkyDrive still.
+
+{% gist 67a630abfef6097fe93d %}
+
+via 
+[Stack Overflow: How do I programmatically locate my Dropbox folder using C#?](http://stackoverflow.com/questions/9660280/)
+[Get OneDrive path in Windows](http://stackoverflow.com/questions/26771265/)
