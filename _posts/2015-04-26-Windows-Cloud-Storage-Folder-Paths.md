@@ -3,8 +3,7 @@ layout: post
 tags: [c# dropbox onedrive]
 redirect_from: /Windows-Dropbox-Folder-Path/
 ---
-The Dropbox folder path is stored in host.db in the Dropbox ApplicationData folder.
-The OneDrive folder path is stored in the registry (currently still) under SkyDrive.
+The Dropbox folder path is stored in host.db in the Dropbox ApplicationData folder. The OneDrive folder path is stored in the registry (currently still) under SkyDrive.
 
 {% gist 67a630abfef6097fe93d %}
 
