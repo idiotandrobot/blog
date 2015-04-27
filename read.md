@@ -4,8 +4,21 @@ title: Read
 permalink: /read/
 ---
 
+**2015**
+
+- **15-Mar** The Long Earth by Terry Pratchett and Stephen Baxter
+- **5-Feb** The First Fifteen Lives of Harry August by Claire North
+- **2-Feb** The Martian by Andy Weir
+- **25-Jan** Station Eleven by Emily St. John Mandel
+- **17-Jan** The Departure by Neal Asher
+- **7-Jan** A Slip of the Keyboard: Collected Non-fiction by Terry Pratchett
+
 **2014**
 
+- **16-Dec** Manifold: Time by Stephen Baxter
+- **2-Nov** The Girl With All The Gifts by M. R. Carey
+- **23-Oct** Ancillary Sword by Ann Leckie
+- **19-Oct** The Science of Discworld IV by Terry Pratchett, Jack Cohen and Ian Stewart
 - **28-Sep** Railsea by China Miéville
 - **14-Sep** The Epic Struggle of the Internet of Things by Bruce Sterling
 - **29-Aug** Broken Monsters by Lauren Beukes
@@ -49,7 +62,7 @@ permalink: /read/
 - **02-Jul** River Of Gods by Ian Mcdonald
 - **01-May** The Quantum Thief by Hannu Rajaniemi
 - **22-Mar** Homicide: A Year On The Killing Streets by David Simon
-- **12-Feb** Wool Omnibus Edition (Wool 1 - 5) by Hugh Howey
+- **12-Feb** Wool by Hugh Howey
 - **06-Feb** Map of a Nation by Rachel Hewitt
 - **08-Jan** The Jennifer Morgue by Charles Stross
 
