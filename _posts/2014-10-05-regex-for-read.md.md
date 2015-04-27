@@ -4,9 +4,9 @@ tags: [markdown regex]
 date: 2014-10-05 17:30 +0100
 redirect_from: /2014/10/05/regex-for-read.md/
 ---
-A regex to parse [read.md](https://github.com/idiotandrobot/blog/blob/gh-pages/read.md)
+A regex to parse [read.md](https://www.dropbox.com/s/63rmg23fwadtp4g/Read.md?dl=0)
 
-`\*{2}(?<Year>\d{4})\*{2}\r?\n\r?\n(?<Read>- \*{2}(?<Day>\d{1,2})-(?<Month>\w{3})\*{2} (?<Title>.*) by (?<Author>.*)\r?\n)+`
+<% gist 11ad93916abd62489d66 %}
 
 **Update:** Of course no regex is complete with dealing with the crlf/lf system wars. Damn you default git.
 
