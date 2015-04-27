@@ -39,35 +39,7 @@ And that the lack of support seems to be dependant on the type of project (i.e. 
 
 Both of those questions have answers that suggest using a converter instead:
 
-**StringFormatConverter**
-
-C# 
-
-		public sealed class StringFormatConverter : IValueConverter
-		{
-		    public object Convert(object value, Type targetType, object parameter, string language)
-		    {
-		        if (value == null)
-		            return null;
-		
-		        if (parameter == null)
-		            return value;
-		
-		        return string.Format((string)parameter, value);
-		    }
-		
-		    public object ConvertBack(object value, Type targetType, object parameter,
-		        string language)
-		    {
-		        throw new NotImplementedException();
-		    }
-		}
-
-XAML Fragments
-
-		<StringFormatConverter x:Name="StringFormat"/>	
-	
-		<TextBlock Text="{Binding DateTime, StringFormat=T,	RelativeSource={RelativeSource TemplatedParent}}" />
+{% gist 101c1631fc96cf181c4f %}
 
 This would also work but in the process of writing this post the original Clock style started working so I'm assuming something else I was doing in the custom control was at fault.
 
