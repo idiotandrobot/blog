@@ -4,29 +4,11 @@ title: TextBlock StringFormat Support in Windows Phone 8.1 Projects
 tags: [wp81 xaml]
 redirect_from: /2014/11/21/TextBlock-And-StringFormat-In-Windows-Phone-8.1/
 ---
-In trying to create a custom control for a Windows Phone 8.1 project I was having an odd problem where StringFormat didn't seem to be supported by the TextBlock control Text property any more so the following style raised an error against `StringFormat=T`: 
+In trying to create a custom control for a Windows Phone 8.1 project I was having an odd problem where StringFormat didn't seem to be supported by the TextBlock control Text property any more so the following "Unsupported" style raised an error against *StringFormat=T*: 
 
-{% highlight c# %}
-<Style TargetType="controls:Clock">
-<Setter Property="Template">
-<Setter.Value>
-<ControlTemplate TargetType="controls:Clock">
-<TextBlock Text="{Binding DateTime, 
-StringFormat=T,
-RelativeSource={RelativeSource TemplatedParent}}" />
-</ControlTemplate>
-</Setter.Value>
-</Setter>
-</Style>
-{% endhighlight %}
+{% gist dd6349cd134937012b39 %}
 
-This was odd as the page was already covered in xaml like this:
-
-
-		<TextBlock Text="{Binding Minutes, StringFormat='00'}" />
-
-		<TextBlock Text="{Binding Seconds, StringFormat='00'}" /> 
-
+This was odd as the page was already covered in the "Supported" xaml shown above.
 
 Which displayed (the integer values Minutes and Seconds) formatted to two digits as you'd expect.
 
