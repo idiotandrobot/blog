@@ -9,4 +9,4 @@ As with most xaml based apps there are any number of ways of ordering a list of 
 
 The above example will order a bound list 'List' based on the listed object's 'Name' property. 
 
-See also: [Scott Hanselman example](http://www.hanselman.com/blog/CollectionViewSourceIsCrazyUsefulForBindingToFilteredObservableCollectionsOnWindowsPhone8.aspx)
+See also this [Scott Hanselman](http://www.hanselman.com) [example](http://www.hanselman.com/blog/CollectionViewSourceIsCrazyUsefulForBindingToFilteredObservableCollectionsOnWindowsPhone8.aspx)
