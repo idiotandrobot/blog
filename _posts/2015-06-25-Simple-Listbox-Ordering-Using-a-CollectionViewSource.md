@@ -12,3 +12,6 @@ The above example will order a bound list 'List' based on the listed object's 'N
 The [SortDescription](https://msdn.microsoft.com/en-us/library/system.componentmodel.sortdescription(v=vs.110).aspx) binding is clever enough to raise an error if the property selected doesn't implement [IComparable](https://msdn.microsoft.com/en-us/library/system.icomparable(v=vs.110).aspx).
 
 See also [this example](http://www.hanselman.com/blog/CollectionViewSourceIsCrazyUsefulForBindingToFilteredObservableCollectionsOnWindowsPhone8.aspx) by [Scott Hanselman](http://www.hanselman.com).
+
+And a mere six years ago:- 
+[Stack Overflow: How can I sort a ListBox using only XAML and no code-behind?](http://stackoverflow.com/questions/1280704/how-can-i-sort-a-listbox-using-only-xaml-and-no-code-behind)
