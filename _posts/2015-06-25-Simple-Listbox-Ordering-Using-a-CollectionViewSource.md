@@ -13,5 +13,4 @@ The [SortDescription](https://msdn.microsoft.com/en-us/library/system.componentm
 
 See also [this example](http://www.hanselman.com/blog/CollectionViewSourceIsCrazyUsefulForBindingToFilteredObservableCollectionsOnWindowsPhone8.aspx) by [Scott Hanselman](http://www.hanselman.com).
 
-And a mere six years ago:- 
-[Stack Overflow: How can I sort a ListBox using only XAML and no code-behind?](http://stackoverflow.com/questions/1280704/how-can-i-sort-a-listbox-using-only-xaml-and-no-code-behind)
+And a mere six years ago [Stack Overflow: How can I sort a ListBox using only XAML and no code-behind?](http://stackoverflow.com/questions/1280704/how-can-i-sort-a-listbox-using-only-xaml-and-no-code-behind)
