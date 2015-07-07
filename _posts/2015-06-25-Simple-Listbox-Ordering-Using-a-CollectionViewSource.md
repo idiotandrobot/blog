@@ -5,13 +5,13 @@ tags: [xaml]
 ---
 As with most xaml based apps there are any number of ways of ordering a list of items. A quick and straightforward way to do this entirely in xaml is to use a [CollectionViewSource](https://msdn.microsoft.com/en-us/library/system.windows.data.collectionviewsource(v=vs.110).aspx).
 
-{% gist d7c30aac470af4900cb5#file-1-original-listbox-xaml %}
+{% gist d7c30aac470af4900cb5 1-original-listbox-xaml %}
 
-{% gist d7c30aac470af4900cb5#file-2-namespace %}
+{% gist d7c30aac470af4900cb5 2-namespace %}
 
-{% gist d7c30aac470af4900cb5#file-3-page-resource %}
+{% gist d7c30aac470af4900cb5 3-page-resource %}
 
-{% gist d7c30aac470af4900cb5#file-4-new-listbox-xaml %}
+{% gist d7c30aac470af4900cb5 4-new-listbox-xaml %}
 
 The above example will order a bound list 'List' based on the listed object's 'Name' property. 
 
