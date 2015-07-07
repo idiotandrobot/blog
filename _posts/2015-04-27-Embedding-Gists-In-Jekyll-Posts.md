@@ -11,5 +11,7 @@ So the following embedded gist demonstrates the code required to embed a gist
 
 {% gist 92b3fce859806a435a96 %}
 
+{% gist 92b3fce859806a435a96 file-embed %}
+
 Which can also be seen in this post's [source](https://github.com/idiotandrobot/blog/blob/gh-pages/_posts/2015-04-27-Embedding-Gists-In-Jekyll-Posts.md)
 
