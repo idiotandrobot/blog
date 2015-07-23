@@ -255,7 +255,7 @@ nav {
   }
 
   .read-more {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -272,6 +272,7 @@ footer {
 }
 // Section where I just cute and paste until it works
 .meta {
+    font-size: 13px;
     margin-left: 4px;
     margin-bottom: 4px;
     color: #999;
@@ -291,14 +292,14 @@ footer {
 .meta .date:before,
 .meta .tags:before {
     color: #ccc;
-    font: 1.3em FontAwesome;
+    font: 1.1em FontAwesome;
     left: 0;
     margin-right: 5px;
 }
 .meta .history a:before,
 .meta .edit a:before {
     color: #ccc;
-    font: 1.3em FontAwesome;
+    font: 1.1em FontAwesome;
     left: 0;
     margin-right: 5px;
 }
