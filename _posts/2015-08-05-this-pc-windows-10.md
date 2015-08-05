@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'This PC' editor updated for Windows 10
+title: This PC editor updated for Windows 10
 tags: windows10 thispc
 project: https://github.com/idiotandrobot/thispc
 ---
