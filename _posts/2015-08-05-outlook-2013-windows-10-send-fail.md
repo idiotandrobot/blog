@@ -10,7 +10,7 @@ In my case emails were sitting in the Outbox and the 'Outlook Send/Receive progr
 I also had to open the email in question from the Outbox and hit 'Send' again.
 
 ## Opening an Administrator Command Prompt ##
-1. Press 'Windows' key
+1. Press [Windows key](https://en.wikipedia.org/wiki/Windows_key)
 2. Type 'cmd'
 3. Right-click on 'Command Prompt (Desktop App)'
 4. Select 'Run as administrator'
