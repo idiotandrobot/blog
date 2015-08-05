@@ -6,21 +6,21 @@ project: https://github.com/idiotandrobot/thispc
 ---
 When Windows 8.1 came out `Computer` in the Windows Explorer Navigation Pane was renamed to `This PC` and a load of User folder links were added to it so instead of:-
 
-- `Computer`
-  - `Local Disk (C:)`
-  - `Local Disk (D:)`
+`Computer`
+- `Local Disk (C:)`
+- `Local Disk (D:)`
 
 You got:-
 
-- `This PC`
-  - `Desktop`
-  - `Documents`
-  - `Downloads`
-  - `Music`
-  - `Pictures`
-  - `Videos`
-  - `Local Disk (C:)`
-  - `Local Disk (D:)`
+`This PC`
+- `Desktop`
+- `Documents`
+- `Downloads`
+- `Music`
+- `Pictures`
+- `Videos`
+- `Local Disk (C:)`
+- `Local Disk (D:)`
 
 Which, to me at least, seemed a little cluttered, especially as there was already access via Libraries and they could always be added to Favourites if you didn't like/understand Libraries.
 
