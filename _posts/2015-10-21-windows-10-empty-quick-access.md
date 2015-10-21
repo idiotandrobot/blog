@@ -8,6 +8,6 @@ My desktop pc stopped showing any contents for Quick access in File Explorer a c
 
 Deleting the contents of `%AppData%\Microsoft\windows\recent\automaticdestinations` causes the pinned folders to reappear.
 
-Deleting the contents of `%AppData%\Microsoft\windows\recent\customdestinations` doesn't seem to do anything.
+Subsequently deleting the contents of `%AppData%\Microsoft\windows\recent\customdestinations` doesn't seem to do anything.
 
 Neither has caused recent files or folders to appear in the Navigation Pane.
