@@ -6,7 +6,7 @@ tags: [windows10]
 My desktop pc stopped showing any contents for Quick access in File Explorer a couple of days ago. 
 [Reddit](https://www.reddit.com/r/Windows10/comments/3f60l6/broken_quick_access/) provides various suggestions.
 
-Deleting the contents of `%AppData%\Microsoft\windows\recent\automaticdestinations` causes the pinned folders to reappear.
+Deleting the contents of `%AppData%\Microsoft\windows\recent\automaticdestinations` causes the default pinned folders to reappear.
 
 Subsequently deleting the contents of `%AppData%\Microsoft\windows\recent\customdestinations` doesn't seem to do anything.
 
