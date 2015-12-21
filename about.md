@@ -8,9 +8,9 @@ Mainly C# developer
 
 ### Blog Information
 
-Experimenting with Jekyll on GitHub Pages.
+Experimenting with [Jekyll](https://jekyllrb.com/) on [GitHub Pages](https://pages.github.com/).
 
-Blog GitHub [Project](https://github.com/idiotandrobot/blog) page.
+Blog [Project](https://github.com/idiotandrobot/blog) page on [GitHub](https://github.com).
 
 ### Contact me
 
