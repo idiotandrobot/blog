@@ -10,4 +10,4 @@ external-url: https://blog.brandonparsons.me/2015-using-tags-in-a-jekyll-blog-on
 Revisited creating a [tags](http://idiotandrobot.com/blog/tags/) page for this blog. 
 Pretty straightforward apart from having to correct all of the post tag formats.
 
-Now it's just a case of adding hyperlinks to tags in posts.
+Now it's just a case of adding hyperlinks to tags in posts. And formatting.
