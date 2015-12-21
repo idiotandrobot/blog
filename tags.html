@@ -11,16 +11,18 @@ permalink: /tags/
     {% for tag in tags_list %}
       <li>
         <a href="#{{ tag }}">
-          {{ tag }} [{{ site.tags[tag].size }}]
+          {{ tag }} 
         </a>
+        [{{ site.tags[tag].size }}]
       </li>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
       <li>
         <a href="#{{ tag[0] }}" class='list-group-item'>
-          {{ tag[0] }} [{{ tag[1].size }}]
+          {{ tag[0] }} 
         </a>
+        [{{ tag[1].size }}]
       </li>
     {% endfor %}
   {% endif %}
