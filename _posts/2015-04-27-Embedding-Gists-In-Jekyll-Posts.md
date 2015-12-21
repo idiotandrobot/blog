@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Embedding Gists in Jekyll Posts
-tags: [jekyll gist]
+tags: 
+- jekyll
+- gist
 ---
 Having had middling success including code in posts here I wondered whether it was possible to embed [gists](https://gist.github.com) instead of relying on markdown and css.
 
