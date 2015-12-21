@@ -1,8 +1,8 @@
 ---
 layout: post
 tags: 
-- jekyll
-- raspi
+- Jekyll
+- Raspberry Pi
 ---
 There are _a lot_ of suggested ways of doing this with varying degrees complexity and success.
 

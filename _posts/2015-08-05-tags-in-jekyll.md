@@ -2,7 +2,7 @@
 layout: post
 title: Tags in Jekyll
 tags: 
-- jekyll
+- Jekyll
 external-url: http://charliepark.org/tags-in-jekyll/
 ---
 [Charlie Park's](http://charliepark.org/) - [Tags In Jekyll](http://charliepark.org/tags-in-jekyll/).

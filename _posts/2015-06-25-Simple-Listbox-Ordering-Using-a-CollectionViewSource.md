@@ -2,7 +2,7 @@
 layout: post
 title: Simple Listbox Ordering using a CollectionViewSource
 tags: 
-- xaml
+- XAML
 ---
 As with most xaml based apps there are any number of ways of ordering a list of items. A quick and straightforward way to do this entirely in xaml is to use a [CollectionViewSource](https://msdn.microsoft.com/en-us/library/system.windows.data.collectionviewsource(v=vs.110).aspx).
 

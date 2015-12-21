@@ -2,7 +2,7 @@
 layout: post
 title: Tags in Jekyll - Part 2
 tags:
-- jekyll
+- Jekyll
 external-url: https://blog.brandonparsons.me/2015-using-tags-in-a-jekyll-blog-on-github-pages/
 ---
 [Brandon Parsons](https://blog.brandonparsons.me/) - [Using Tags In A Jekyll Blog On Github Pages](https://blog.brandonparsons.me/2015-using-tags-in-a-jekyll-blog-on-github-pages/).

@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- test
+- Test
 date: 2014-10-05 10:54 +1
 ---
 GitHub, not unreasonably, has a read-only mobile site. Writing this on the desktop site on my phone is fairly awful. Even ignoring my terrible memory wrt the header values.
