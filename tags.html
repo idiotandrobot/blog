@@ -9,15 +9,19 @@ permalink: /tags/
 
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <a href="#{{ tag }}" class='list-group-item'>
-        {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
-      </a>
+      <li>
+        <a href="#{{ tag }}">
+          {{ tag }} [{{ site.tags[tag].size }}]
+        </a>
+      </li>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <a href="#{{ tag[0] }}" class='list-group-item'>
-        {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
-      </a>
+      <li>
+        <a href="#{{ tag[0] }}" class='list-group-item'>
+          {{ tag[0] }} [{{ tag[1].size }}]
+        </a>
+      </li>
     {% endfor %}
   {% endif %}
 
