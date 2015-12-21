@@ -17,16 +17,7 @@ title: Archive
 	  <ul>
   {% endunless %}
 	<li>
-		<table>
-			<tr>
-			<td>
-				<h3 class="title"><a href="{{ post.url }}">{{post.title}}</a></h3>
-			</td>
-			<td>
-				{% include post/meta.html %}
-			</td>
-			</tr>
-		</table>
+    <h3 class="title"><a href="{{ post.url }}">{{post.title}}</a>{% include post/meta.html %}</h3>
 	</li>
 {% endif %}
 {% endfor %}
