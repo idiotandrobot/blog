@@ -6,9 +6,11 @@ permalink: /about/
 
 Mainly C# developer
 
-### More Information
+### Blog Information
 
 Experimenting with Jekyll on GitHub Pages.
+
+[Project](https://github.com/idiotandrobot/blog)
 
 ### Contact me
 
