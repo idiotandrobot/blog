@@ -1,7 +1,9 @@
 ---
 layout: post
 title: This PC editor updated for Windows 10
-tags: [windows10 thispc]
+tags: 
+- windows10 
+- thispc
 ---
 When Windows 8.1 came out `Computer` in the Windows Explorer Navigation Pane was renamed to `This PC` and a load of User folder links were added to it.
 
