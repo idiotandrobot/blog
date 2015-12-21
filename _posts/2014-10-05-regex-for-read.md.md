@@ -1,8 +1,8 @@
 ---
 layout: post
 tags: 
-- markdown 
-- regex
+- Markdown 
+- Regex
 date: 2014-10-05 17:30 +0100
 redirect_from: /2014/10/05/regex-for-read.md/
 ---
