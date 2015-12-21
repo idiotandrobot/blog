@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Outlook 2013 not sending emails since Windows 10 upgrade
-tags: [windows10 outlook2013]
+tags: 
+- windows10 
+- outlook2013
 ---
 The solution suggested on various forums is to run 'sfc /scannow' from an [Administrator Command Prompt](http://www.howtogeek.com/howto/windows-vista/run-a-command-as-administrator-from-the-windows-vista-run-box/) and then restart Outlook.
 
