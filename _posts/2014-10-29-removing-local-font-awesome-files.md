@@ -1,6 +1,8 @@
 ---
 layout: post
-tags: [jekyll fontawesome]
+tags: 
+- jekyll 
+- fontawesome
 ---
 [Jekyll Now](https://github.com/barryclark/jekyll-now) didn't include support for [Font Awesome](http://fontawesome.io/) icons so I ha(a?)cked them in by copying the method used by [Haacked](https://github.com/Haacked/haacked.com).
 
