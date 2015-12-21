@@ -20,7 +20,7 @@ title: Archive
 		<h3 class="title"><a href="{{ post.url }}">{{post.title}}</a></h3>
 		<span class="meta">
 			<span class="date"><time datetime="{{ date | datetime | date_to_xmlschema }}" itemprop="datePublished">{{ date | date: "%b %e" }}</time></span>
-			{% if post.categories.length > 0 %}
+			{% if post.tags.length > 0 %}
 				<span class="tags">{% include post/tags.html %}</span>
 			{% endif %}
 		    	<span class="edit">{% include post/edit.html %}</span>
