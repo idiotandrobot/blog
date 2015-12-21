@@ -10,7 +10,7 @@ Mainly C# developer
 
 Experimenting with Jekyll on GitHub Pages.
 
-[Project](https://github.com/idiotandrobot/blog)
+Blog GitHub [Project](https://github.com/idiotandrobot/blog) page.
 
 ### Contact me
 
