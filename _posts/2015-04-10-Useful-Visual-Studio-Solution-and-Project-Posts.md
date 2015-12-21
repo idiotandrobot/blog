@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Useful Visual Studio Solution and Project Posts
-tags: [visualstudio]
+tags: 
+- visualstudio
 ---
 A couple of posts from [Kirill Osenkov](http://blogs.msdn.com/b/kirillosenkov/) on Visual Studio Solution and Project configuration.
 
