@@ -40,12 +40,10 @@ permalink: /tags/
           {% if page.url == node.url %}
           <li class="active">
             <a href="{{site.baseurl}}{{node.url}}" class="active">{{node.title}}</a>
-            {% include post/meta.html %}
           </li>
           {% else %}
           <li>
               <a href="{{site.baseurl}}{{node.url}}">{{node.title}}</a>
-              {% include post/meta.html %}
           </li>
           {% endif %}
         {% endif %}
