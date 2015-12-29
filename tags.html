@@ -4,13 +4,13 @@ title: Tags
 permalink: /tags/
 ---
 
-<ul class='tag-cloud'>
+<ul class="tag-cloud">
   {% assign tags_list = site.tags %}
 
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
       <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
-        <a class="tag" href="#{{ tag }}">
+        <a href="#{{ tag }}">
           {{ tag }} 
         </a>
       </li>
@@ -18,7 +18,7 @@ permalink: /tags/
   {% else %}
     {% for tag in tags_list %}
       <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
-        <a class="tag" href="#{{ tag[0] }}">
+        <a href="#{{ tag[0] }}">
           {{ tag[0] }} 
         </a>
       </li>
@@ -39,11 +39,14 @@ permalink: /tags/
         {% if group == null or group == node.group %}
           {% if page.url == node.url %}
           <li class="active">
-            <a href="{{node.url}}" class="active">{{node.title}}</a>
+            <a href="{{site.baseurl}}{{node.url}}" class="active">{{node.title}}</a>
             {% include post/meta.html %}
           </li>
           {% else %}
-          <li><a href="{{site.baseurl}}{{node.url}}">{{node.title}}</a></li>
+          <li>
+              <a href="{{site.baseurl}}{{node.url}}">{{node.title}}</a>
+              {% include post/meta.html %}
+          </li>
           {% endif %}
         {% endif %}
       {% endif %}

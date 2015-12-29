@@ -328,7 +328,7 @@ footer {
   display: inline-block;
   margin: 0 25px 25px 0; }
   
-    .tag {
+.tag-cloud a {
     background: #ddd;
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -340,10 +340,10 @@ footer {
     padding: 2px 8px 2px 8px;
     text-decoration: none; }
 
-.tag:visited {
+.tag-cloud a:visited {
   color: #888; }
 
-.tag:hover {
+.tag-cloud a:hover {
   background: #ccc;
   color: #777; }
 
