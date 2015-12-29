@@ -9,11 +9,10 @@ permalink: /tags/
 
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <li>
+      <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">>
         <a href="#{{ tag }}">
           {{ tag }} 
         </a>
-        [{{ site.tags[tag].size }}]
       </li>
     {% endfor %}
   {% else %}
@@ -22,7 +21,6 @@ permalink: /tags/
         <a href="#{{ tag[0] }}" class='list-group-item'>
           {{ tag[0] }} 
         </a>
-        [{{ tag[1].size }}]
       </li>
     {% endfor %}
   {% endif %}
