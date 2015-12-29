@@ -9,7 +9,7 @@ permalink: /tags/
 
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">>
+      <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
         <a href="#{{ tag }}">
           {{ tag }} 
         </a>
@@ -17,8 +17,8 @@ permalink: /tags/
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <li>
-        <a href="#{{ tag[0] }}" class='list-group-item'>
+      <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
+        <a href="#{{ tag[0] }}">
           {{ tag[0] }} 
         </a>
       </li>
