@@ -1,10 +1,10 @@
 ---
 layout: post
+category: Test
 tags: 
 - Markdown
 date: 2014-10-04 11:46 +0100
 external-url: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+external-title: Adam Pritchard - Markdown Cheatsheet
 ---
-[adam-p's](https://github.com/adam-p) - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-
 (Test of external URL posts).
