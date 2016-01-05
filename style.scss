@@ -257,6 +257,14 @@ nav {
   .read-more {
     font-size: 13px;
   }
+  
+  .read-more:before { content: "\f061" }
+  
+  .read-link {
+    font-size: 13px;
+  }
+  
+  .read-link:before { content: "\f0c1" }
 }
 
 .wrapper-footer {
