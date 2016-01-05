@@ -4,9 +4,8 @@ title: Tags in Jekyll - Part 2
 tags:
 - Jekyll
 external-url: https://blog.brandonparsons.me/2015-using-tags-in-a-jekyll-blog-on-github-pages/
+external-title: Using Tags In A Jekyll Blog On Github Pages
 ---
-[Brandon Parsons](https://blog.brandonparsons.me/) - [Using Tags In A Jekyll Blog On Github Pages](https://blog.brandonparsons.me/2015-using-tags-in-a-jekyll-blog-on-github-pages/).
-
 Revisited creating a [tags](http://idiotandrobot.com/blog/tags/) page for this blog. 
 Pretty straightforward apart from having to correct all of the post tag formats.
 
