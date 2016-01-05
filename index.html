@@ -14,7 +14,7 @@ layout: default
           {% if post.external-url && post.external-title %}
           <a href="{{ post.external-url }}" class="read-link">{{ post.external-title }}</a>
           {% else %}
-          <a href="{{ post.external-url }}" class="read-link" />
+          <a href="{{ post.external-url }}" class="read-link">{{ post.external-url }}</a>
           {% endif %}
         </div>
       {% else %}
