@@ -3,7 +3,7 @@ layout: post
 title: Code by Charles Petzold
 category: Project
 tags:
-- Charles Petzold 
+- Petzold Code 
 github-project: petzold-code
 ---
 [Code](http://charlespetzold.com/code/index.html) by [Charles Petzold](http://charlespetzold.com/) is an excellent read, "a unique exploration into bits, bytes, and the inner workings of computers".
