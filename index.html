@@ -12,9 +12,9 @@ layout: default
         <div class="entry">
           {{ post.content }}
           {% if post.external-url && post.external-title %}
-          <a href="{{ post.external-url }}" class="read-more">{{ post.external-title }}</a>
-          {% else if page.external-url %}
-          <a href="{{ post.external-url }}" class="read-more">{{ post.external-title }}</a>
+          <a href="{{ post.external-url }}" class="read-link">{{ post.external-title }}</a>
+          {% else %}
+          <a href="{{ post.external-url }}" class="read-link" />
           {% endif %}
         </div>
       {% else %}
