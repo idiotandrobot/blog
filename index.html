@@ -14,8 +14,8 @@ layout: default
         {% else %}
         <a href="{{ post.external-url }}" class="read-link">{{ post.external-url }}</a>
         {% endif %}        
-        {% if post.github-project && site.github_user %}
-        <a href="https://github.com/{{ site.github_user }}/{{ post.github-project }}" class="github-project-link">{{ post.github-project }}</a>
+        {% if page.github-project && site.github_user %}
+        <a href="https://github.com/{{ site.github_user }}/{{ page.github-project }}" class="github-project-link">{{ page.github-project }}</a>
         {% endif %}
         <div class="entry">
           {{ post.content }}
