@@ -9,13 +9,13 @@ layout: default
       {% if post.external-url %}
         <h1>{{ post.title }}</h1>
         {% include post/meta.html %}
+        {% if post.external-url && post.external-title %}
+        <a href="{{ post.external-url }}" class="read-link">{{ post.external-title }}</a>
+        {% else %}
+        <a href="{{ post.external-url }}" class="read-link">{{ post.external-url }}</a>
+        {% endif %}        
         <div class="entry">
           {{ post.content }}
-          {% if post.external-url && post.external-title %}
-          <a href="{{ post.external-url }}" class="read-link">{{ post.external-title }}</a>
-          {% else %}
-          <a href="{{ post.external-url }}" class="read-link">{{ post.external-url }}</a>
-          {% endif %}
         </div>
       {% else %}
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
