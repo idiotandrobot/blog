@@ -12,7 +12,7 @@ layout: default
   {% include post/meta.html %}
   {% if page.external-url && page.external-title %}
     <a href="{{ page.external-url }}" class="read-link">{{ page.external-title }}</a>
-  {% else if page.external-url %}
+  {% elsif page.external-url %}
     <a href="{{ page.external-url }}" class="read-link" />
   {% endif %}
   
