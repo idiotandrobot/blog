@@ -265,6 +265,12 @@ nav {
   }
   
   .read-link:before { font: 1.1em FontAwesome; content: "\f0c1"; margin-right: 4px}
+  
+  .github-project-link {
+    font-size: 13px;
+  }
+  
+  .github-project-link:before { font: 1.1em FontAwesome; content: "\f09b"; margin-right: 4px}
 }
 
 .wrapper-footer {
