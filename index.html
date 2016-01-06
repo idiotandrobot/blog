@@ -1,34 +1,31 @@
 ---
 layout: default
 ---
-
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">    
-      
       {% if post.external-url %}
         <h1>{{ post.title }}</h1>
         {% include post/meta.html %}
+        <div class="entry">
+          {{ post.content }}
+        </div>
         {% if post.external-url && post.external-title %}
         <a href="{{ post.external-url }}" class="read-link">{{ post.external-title }}</a>
         {% else %}
         <a href="{{ post.external-url }}" class="read-link">{{ post.external-url }}</a>
-        {% endif %}        
-        <div class="entry">
-          {{ post.content }}
-        </div>
+        {% endif %}
       {% else %}
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         {% include post/meta.html %}
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
         {% if post.github-project && site.github_user %}
         <a href="https://github.com/{{ site.github_user }}/{{ post.github-project }}" class="github-project-link">{{ post.github-project }}</a>
         {% endif %}
-        <div class="entry">
-          {{ post.excerpt }}
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       {% endif %}
-
     </article>
   {% endfor %}
 </div>
