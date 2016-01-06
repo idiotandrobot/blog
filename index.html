@@ -19,10 +19,10 @@ layout: default
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         {% include post/meta.html %}
         <div class="entry">
-          {{ post.excerpt }}
           {% if post.github-project && site.github_user %}
           <a href="https://github.com/{{ site.github_user }}/{{ post.github-project }}" class="github-project-link">{{ post.github-project }}</a>
           {% endif %}
+          {{ post.excerpt }}
         </div>
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       {% endif %}
