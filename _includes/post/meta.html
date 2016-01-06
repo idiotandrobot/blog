@@ -2,7 +2,7 @@
   <span class="date">{% include post/date.html %}{{ time }}</span>
   <span class="history">{% include post/history.html %}</span>
   <span class="edit">{% include post/edit.html %}</span>
-  {% if page.tags.length > 0 %}
+  {% if page.tags.counts > 0 %}
   <p/>
   <span class="tags">{% include post/tags.html %}</span>
   {%endif %}
