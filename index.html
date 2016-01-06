@@ -5,7 +5,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">    
       {% if post.external-url %}
-        <h1><a href="{{ post.external-url }}">{{ post.title }}</a></h1></h1>
+        <h1><a href="{{ post.external-url }}">{{ post.title }}</a></h1>
         {% include post/meta.html %}
         <div class="entry">
           {{ post.content }}
