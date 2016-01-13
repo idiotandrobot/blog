@@ -10,11 +10,11 @@ layout: default
     <h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
   {% endif %}
   {% include post/meta.html %}
-  {% if page.external-url & page.external-title %}
+  {% if page.external-url %}{% if page.external-title %}
     <a href="{{ page.external-url }}" class="read-link">{{ page.external-title }}</a>
-  {% elsif page.external-url %}
+  {% else %}
     <a href="{{ page.external-url }}" class="read-link">{{ page.title }}</a>
-  {% endif %}
+  {% endif %}{% endif %}
   {% if page.github-project && site.github_user %}
     <a href="https://github.com/{{ site.github_user }}/{{ page.github-project }}" class="github-project-link">{{ page.github-project }}</a>
   {% endif %}
