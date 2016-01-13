@@ -10,7 +10,7 @@ layout: default
     <h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
   {% endif %}
   {% include post/meta.html %}
-  {% if page.external-url && page.external-title %}
+  {% if page.external-url & page.external-title %}
     <a href="{{ page.external-url }}" class="read-link">{{ page.external-title }}</a>
   {% elsif page.external-url %}
     <a href="{{ page.external-url }}" class="read-link">{{ page.title }}</a>
