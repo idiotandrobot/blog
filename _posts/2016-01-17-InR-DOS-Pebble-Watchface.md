@@ -1,5 +1,6 @@
 ---
 layout: post
+title: InR-DOS Pebble Watchface
 category: project
 tags:
 - Pebble
