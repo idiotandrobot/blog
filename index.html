@@ -16,7 +16,7 @@ layout: default
   {% endif %}
   {% include post/meta.html %}
     <div class="entry">
-      {{ post.content }}
+      {{ post.excerpt }}
     </div>
   {% if post.external-url %}{% elsif post.github-project && site.github_user %}{% else %}
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
