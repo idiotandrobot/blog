@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post">
 {% if page.category == 'link' %}
-    <h1><a href="{{ page.external-url }}" class="read-link">{{ page.title }}</a></h1>
+    <h1><a href="{{ page.external-url }}" class="external-link">{{ page.title }}</a></h1>
 {% elsif page.category == 'project' && site.github_user %}
     <h1><a href="https://github.com/{{ site.github_user }}/{{ page.title }}" class="github-project-link">{{ page.title }}</a></h1>
 {% else %}
