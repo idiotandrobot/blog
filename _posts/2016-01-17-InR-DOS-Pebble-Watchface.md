@@ -4,7 +4,6 @@ title: InR-DOS
 category: project
 tags:
 - Pebble
-languages:
 - C
 - JavaScript
 - HTML
