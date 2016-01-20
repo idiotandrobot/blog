@@ -4,7 +4,6 @@ title: pebble-weather
 category: project
 tags:
 - Pebble
-languages:
 - C
 - JavaScript
 - HTML
