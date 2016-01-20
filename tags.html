@@ -38,16 +38,16 @@ permalink: /tags/
         {% if group == null or group == node.group %}
           {% if page.url == node.url %}
           <li class="active">
-            <a href="{{site.baseurl}}{{node.url}}" class="active">{{node.title}}</a>
+            <a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a>
           </li>
           {% else %}
           <li>
             {% if node.category == 'link' %}
-            <a href="{{ node.external-url }}" class="external-link">{{node.title}}</a>
+            <a href="{{ node.external-url }}" class="external-link">{{ node.title }}</a>
             {% elsif node.category == 'project' && site.github_user %}
-            <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link">{{node.title}}</a>
+            <a href="https://github.com/{{ site.github_user }}/{{ node.title }}" class="github-project-link">{{ node.title }}</a>
             {% else %}
-            <a href="{{ site.baseurl }}{{ node.url }}">{{node.title}}</a>
+            <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
             {% endif %}              
           </li>
           {% endif %}
