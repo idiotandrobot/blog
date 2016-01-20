@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Project
+category: project
 tags: 
 - Windows 10 
 - This PC

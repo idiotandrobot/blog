@@ -1,10 +1,11 @@
 ---
 layout: post
+title: Using Tags In A Jekyll Blog On Github Pages
+category: link
 tags:
 - Jekyll
 - Tags
 external-url: https://blog.brandonparsons.me/2015-using-tags-in-a-jekyll-blog-on-github-pages/
-external-title: Using Tags In A Jekyll Blog On Github Pages
 external-author: Brandon Parsons 
 ---
 Revisited creating a [tags](http://idiotandrobot.com/blog/tags/) page for this blog. 
