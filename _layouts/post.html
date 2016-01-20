@@ -2,16 +2,13 @@
 layout: default
 ---
 <article class="post">
-{% if page.external-url %}{% if page.external-title %}
-    <h1><a href="{{ page.external-url }}" class="read-link">{{ page.external-title }}</a></h1>
-    {% else %}
+{% if page.category == 'link' %}
     <h1><a href="{{ page.external-url }}" class="read-link">{{ page.title }}</a></h1>
-    {% endif %}
-  {% elsif page.github-project && site.github_user %}
-    <h1><a href="https://github.com/{{ site.github_user }}/{{ page.github-project }}" class="github-project-link">{{ page.github-project }}</a></h1>
-  {% else %}
+{% elsif page.category == 'project' && site.github_user %}
+    <h1><a href="https://github.com/{{ site.github_user }}/{{ page.title }}" class="github-project-link">{{ page.title }}</a></h1>
+{% else %}
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ page.title }}</a></h1>
-  {% endif %}  
+{% endif %}  
   {% include post/meta.html %}
   <div class="entry">
     {{ content }}
