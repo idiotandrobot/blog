@@ -15,7 +15,7 @@ layout: default
     <div class="entry">
       {{ post.excerpt }}
     </div>
-  {% if post.external-url %}{% elsif post.github-project && site.github_user %}{% else %}
+  {% if post.category == 'link' %}{% elsif post.category == 'project' %}{% else %}
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
   {% endif %}
   </article>
