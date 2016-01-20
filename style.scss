@@ -259,17 +259,11 @@ nav {
   }
   
   .read-more:before { font: 1.1em FontAwesome; content: "\f061"; margin-right: 4px}
-  
-  .read-link {
-  }
-  
-  .read-link:before { font: 1.1em FontAwesome; content: "\f0c1"; margin-right: 4px}
-  
-  .github-project-link {
-  }
-  
-  .github-project-link:before { font: 1.3em FontAwesome; content: "\f09b"; margin-right: 4px}
-}
+}  
+
+.external-link:before { font: FontAwesome; content: "\f0c1"; margin-right: 4px}
+.github-project-link:before { font: FontAwesome; content: "\f09b"; margin-right: 4px}
+
 
 .wrapper-footer {
   margin-top: 50px;
