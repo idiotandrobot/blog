@@ -4,7 +4,6 @@ title: petzold-code
 category: project
 tags:
 - Petzold Code 
-languages:
 - C#
 ---
 [Code](http://charlespetzold.com/code/index.html) by [Charles Petzold](http://charlespetzold.com/) is an excellent read, "a unique exploration into bits, bytes, and the inner workings of computers".
