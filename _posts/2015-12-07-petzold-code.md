@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Code by Charles Petzold
 category: Project
 tags:
 - Petzold Code 
