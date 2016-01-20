@@ -5,7 +5,6 @@ category: project
 tags: 
 - Windows 10 
 - This PC
-languages:
 - C#
 
 ---
