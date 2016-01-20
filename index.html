@@ -4,13 +4,10 @@ layout: default
 <div class="posts">
 {% for post in site.posts %}
   <article class="post">    
-  {% if post.external-url %}{% if post.external-title %}
-    <h1><a href="{{ post.external-url }}" class="read-link">{{ post.external-title }}</a></h1>
-    {% else %}
-    <h1><a href="{{ post.external-url }}" class="read-link">{{ post.title }}</a></h1>
-    {% endif %}
-  {% elsif post.github-project && site.github_user %}
-    <h1><a href="https://github.com/{{ site.github_user }}/{{ post.github-project }}" class="github-project-link">{{ post.github-project }}</a></h1>
+  {% if post.category == 'link' %}
+    <h1><a href="{{ post.external-url }}" class="external-link">{{post.title}}</a></h1>
+  {% elsif post.category == 'project' && site.github_user %}
+    <h1><a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link">{{post.title}}</a></h1>
   {% else %}
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
   {% endif %}
