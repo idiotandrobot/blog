@@ -5,27 +5,26 @@ permalink: /tags/
 ---
 
 <ul class="tag-cloud">
-  {% assign tags_list = site.tags %}
-
-  {% if tags_list.first[0] == null %}
+{% assign tags_list = site.tags %}
+{% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
+    <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
         <a href="#{{ tag }}">
           {{ tag }} 
         </a>
-      </li>
+    </li>
     {% endfor %}
-  {% else %}
+{% else %}
     {% for tag in tags_list %}
-      <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
+    <li style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
         <a href="#{{ tag[0] }}">
           {{ tag[0] }} 
         </a>
-      </li>
+    </li>
     {% endfor %}
-  {% endif %}
+{% endif %}
 
-  {% assign tags_list = nil %}
+{% assign tags_list = nil %}
 </ul>
 
 
@@ -43,7 +42,13 @@ permalink: /tags/
           </li>
           {% else %}
           <li>
-              <a href="{{site.baseurl}}{{node.url}}">{{node.title}}</a>
+            {% if node.category == 'link' %}
+            <a href="{{ node.external-url }}" class="external-link">{{node.title}}</a>
+            {% elsif node.category == 'project' && site.github_user %}
+            <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link">{{node.title}}</a>
+            {% else %}
+            <a href="{{ site.baseurl }}{{ node.url }}">{{node.title}}</a>
+            {% endif %}              
           </li>
           {% endif %}
         {% endif %}
