@@ -13,7 +13,11 @@ layout: default
   {% endif %}
   {% include post/meta.html %}
     <div class="entry">
+    {% if post.category == 'link' %}{% elsif post.category == 'project' %}
+      {{ post.content }}
+    {% else %}      
       {{ post.excerpt }}
+    {% endif %}
     </div>
   {% if post.category == 'link' %}{% elsif post.category == 'project' %}{% else %}
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
