@@ -8,4 +8,6 @@ tags:
 - JavaScript
 - HTML
 ---
+![](screenshots/screenshot.png)
+
 Copy of [pebble-examples](https://github.com/pebble-examples)/[pebblekit-js-weather](https://github.com/pebble-examples/pebblekit-js-weather) with additional functionality.
