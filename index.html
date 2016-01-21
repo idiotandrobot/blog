@@ -13,7 +13,7 @@ layout: default
   {% endif %}
   {% include post/meta.html %}
     <div class="entry">
-    {% if post.category == 'link' || post.category == 'project' %}
+    {% if post.category == 'link' or post.category == 'project' %}
       {{ post.content }}
     {% else %}      
       {{ post.excerpt }}
