@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oldschool PC Fonts
+title: Old School PC Fonts
 category: link
 tags:
 - Font
