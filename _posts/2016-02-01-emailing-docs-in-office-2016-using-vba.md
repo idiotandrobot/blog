@@ -14,7 +14,7 @@ To get around these limitations I'd been using a custom 'Email Document' button 
 {% gist bfc1dbb11059836a9fce %}
 
 After upgrading to Office 2016 this stopped working. For some reason it was no longer possible to explicitly declare object types 
-so `Dim Outlook As Outlook.Application` and `Dim MailItem As Outlook.MailItem` would cause *Compile error: User-defined type not defined* error messages.
+so `Dim Outlook As Outlook.Application` and `Dim MailItem As Outlook.MailItem` would cause *Compile error: User-defined type not defined.* error messages.
 
 Changing the declarations to `Dim Outlook As Object` and `Dim MailItem As Object` removed the error messages.
 
