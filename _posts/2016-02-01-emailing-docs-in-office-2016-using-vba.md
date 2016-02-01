@@ -11,7 +11,7 @@ It's tendency not to save messages to 'Sent Items' being it's worst fault, but a
 To get around these limitations I'd been using a custom 'Email Document' button attached to an 'EmailDocument' macro.
 After upgrading to Office 2016 this stopped working.
 
-**Original Macro:**
+**[Original Macro](https://gist.github.com/idiotandrobot/bfc1dbb11059836a9fce):**
 
 {% gist bfc1dbb11059836a9fce %}
 
@@ -28,6 +28,6 @@ Changing the call to `.Attachments.Add ActiveDocument.FullName` fixed the issue.
 It's not clear why either of these things have become an issue in Office 2016, for me at least, but these were the changes required.
 As an aside the 'Default' email behaviour and default content in Office 2016 seem much improved (saved to 'Sent Items', Subject is just filename).
 
-**Modified Macro:**
+**[Modified Macro](https://gist.github.com/idiotandrobot/21fc665e652ffd53a81f):**
 
 {% gist 21fc665e652ffd53a81f %}
