@@ -9,12 +9,13 @@ tags:
 Historically the default 'Email' button in Word/Excel had some limitations that made it mostly unusable. 
 It's tendency not to save messages to 'Sent Items' being it's worst fault, but also the default Subject and Body content weren't great.
 To get around these limitations I'd been using a custom 'Email Document' button attached to an 'EmailDocument' macro.
+After upgrading to Office 2016 this stopped working.
 
 **Original Macro:**
 
 {% gist bfc1dbb11059836a9fce %}
 
-After upgrading to Office 2016 this stopped working. For some reason it was no longer possible to explicitly declare object types 
+For some reason it was no longer possible to explicitly declare object types 
 so `Dim Outlook As Outlook.Application` and `Dim MailItem As Outlook.MailItem` would cause *Compile error: User-defined type not defined.* error messages.
 
 Changing the declarations to `Dim Outlook As Object` and `Dim MailItem As Object` removed the error messages.
