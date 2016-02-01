@@ -2,6 +2,7 @@
 layout: post
 title: Emailing documents in Office 2016 using VBA
 tags:
+- Office
 - Office 2016
 - VBA
 ---
