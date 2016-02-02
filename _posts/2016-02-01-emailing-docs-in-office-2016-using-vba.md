@@ -23,6 +23,7 @@ Changing the declarations to `Dim Outlook As Object` and `Dim MailItem As Object
 In addition `.Attachments.Add Source:=ActiveDocument.FullName, Type:=olByValue` no longer added the document as an attachment. 
 ~~It didn't error, it just didn't add the document.~~
 On commenting out `On Error Resume Next` an "*Object doesn't support named arguments.*" error is raised.
+
 Changing the call to just `.Attachments.Add ActiveDocument.FullName` fixes the error.
 
 **NB:** Prior to finding these errors I hadn't tried this macro on a document stored in OneDrive. Because the `FullName` for a OneDrive document is it's web rather than local path, Office to attempts to redownload the document leading, eventually, to an "*Out of memory.*" error.
