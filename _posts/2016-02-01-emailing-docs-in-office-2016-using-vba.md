@@ -21,7 +21,7 @@ so `Dim Outlook As Outlook.Application` and `Dim MailItem As Outlook.MailItem` w
 Changing the declarations to `Dim Outlook As Object` and `Dim MailItem As Object` removed the error messages.
 
 In addition `.Attachments.Add Source:=ActiveDocument.FullName, Type:=olByValue` no longer added the document as an attachment. 
-~~It didn't error, it just didn't add the document.~~
+<del>It didn't error, it just didn't add the document.</del>
 On commenting out `On Error Resume Next` an "*Object doesn't support named arguments.*" error is raised.
 
 Changing the call to just `.Attachments.Add ActiveDocument.FullName` fixes the error.
