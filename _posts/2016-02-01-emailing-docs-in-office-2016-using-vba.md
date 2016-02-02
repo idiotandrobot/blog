@@ -36,5 +36,6 @@ As an aside the 'Default' email behaviour and default content in Office 2016 see
 {% gist 21fc665e652ffd53a81f %}
 
 **References**
+
 - [Attachments.Add Method (Outlook)](https://msdn.microsoft.com/en-us/library/office/ff869553.aspx)
 - [OlAttachmentType Enumeration (Outlook)](https://msdn.microsoft.com/en-us/library/office/ff868693.aspx)
