@@ -28,7 +28,7 @@ Changing the call to just `.Attachments.Add ActiveDocument.FullName` fixes the e
 
 **NB:** Prior to finding these errors I hadn't tried this macro on a document stored in OneDrive. Because the `FullName` for a OneDrive document is it's web rather than local path, Office to attempts to redownload the document leading, eventually, to an "*Out of memory.*" error.
 
-It's not clear why this declaration and calls have become an issue in Office 2016, for me at least, but these were the changes required.
+It's not clear why these declarations and calls have become an issue in Office 2016, for me at least, but these were the changes required.
 As an aside the 'Default' email behaviour and default content in Office 2016 seem much improved (saved to 'Sent Items', Subject is just filename) and is probably the only option for OneDrive documents.
 
 **[Modified Macro](https://gist.github.com/idiotandrobot/21fc665e652ffd53a81f):**
