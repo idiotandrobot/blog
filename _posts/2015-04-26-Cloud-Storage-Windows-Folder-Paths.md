@@ -5,6 +5,7 @@ tags:
 - Dropbox 
 - OneDrive
 redirect_from: /Windows-Dropbox-Folder-Path/
+redirect_from: /Windows-Cloud-Storage-Folder-Paths/
 ---
 <del>The Dropbox folder path is stored in host.db in the Dropbox ApplicationData/Local ApplicationData folders</del>. 
 
