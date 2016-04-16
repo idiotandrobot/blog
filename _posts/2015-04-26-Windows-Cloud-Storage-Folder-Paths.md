@@ -6,10 +6,11 @@ tags:
 - OneDrive
 redirect_from: /Windows-Dropbox-Folder-Path/
 ---
-<del>The Dropbox folder path is stored in host.db in the Dropbox ApplicationData folder</del>. 
-Update: See http://idiotandrobot.com/blog/dropbox-windows-folder-path/
+<del>The Dropbox folder path is stored in host.db in the Dropbox ApplicationData/Local ApplicationData folders</del>. 
 
-The OneDrive folder path is stored in the registry (currently still) under SkyDrive.
+**Update:** See http://idiotandrobot.com/blog/dropbox-windows-folder-path/
+
+The OneDrive folder path is stored in the registry under SkyDrive.
 
 {% gist 67a630abfef6097fe93d %}
 
