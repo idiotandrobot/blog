@@ -13,3 +13,7 @@ tags:
 via
 
 - [Stack Overflow: How do I programmatically locate my Dropbox folder using C#?](http://stackoverflow.com/questions/9660280/)
+
+see also
+
+- [Cloud Storage Windows Folder Paths](http://idiotandrobot.com/blog/cloud-storage-windows-folder-paths/)
