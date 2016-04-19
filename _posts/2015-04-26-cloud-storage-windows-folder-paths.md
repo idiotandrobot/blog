@@ -5,7 +5,6 @@ tags:
 - Dropbox 
 - OneDrive
 redirect_from: 
-- /Windows-Dropbox-Folder-Path/
 - /Windows-Cloud-Storage-Folder-Paths/
 - /Cloud-Storage-Windows-Folder-Paths/
 ---
