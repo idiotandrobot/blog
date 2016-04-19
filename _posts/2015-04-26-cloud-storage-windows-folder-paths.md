@@ -4,9 +4,10 @@ tags:
 - C# 
 - Dropbox 
 - OneDrive
-redirect_from: /Windows-Dropbox-Folder-Path/
-redirect_from: /Windows-Cloud-Storage-Folder-Paths/
-redirect_from: /Cloud-Storage-Windows-Folder-Paths/
+redirect_from: 
+- /Windows-Dropbox-Folder-Path/
+- /Windows-Cloud-Storage-Folder-Paths/
+- /Cloud-Storage-Windows-Folder-Paths/
 ---
 ###[Dropbox](http://idiotandrobot.com/blog/dropbox-windows-folder-path/)###
 
