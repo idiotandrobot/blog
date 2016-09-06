@@ -4,7 +4,6 @@ title: thispc
 category: project
 tags: 
 - Windows 10 
-- This PC
 - C#
 
 ---
