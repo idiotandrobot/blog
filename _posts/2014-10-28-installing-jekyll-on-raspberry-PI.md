@@ -4,10 +4,10 @@ tags:
 - Jekyll
 - Raspberry Pi
 ---
-There are _a lot_ of suggested ways of doing this with varying degrees complexity and success.
 
-[This](http://darryl.revryl.com/post/jekyll-on-raspberry-pi/) seems to be the most complete guide I've found <del>but I'll repeat the steps used here as well</del>.
+{% gist 00e8bb9a3215fdbf4f58ec7f35b3d7ed %}
 
-<del>Will keep this post up to date as I try and find the path of least resistance.</del>
+via
 
-**Update:** At this stage I've entered so many different commands I couldn't tell you which of them are the bare minimum to get the thing working. The only way to find out would be to start with a fresh raspbian install and I'm not that dedicated.
+- [How to Install Jekyll on Raspberry Pi 3 (Raspbian Jessie)?](http://stackoverflow.com/questions/38838549/how-to-install-jekyll-on-raspberry-pi-3-raspbian-jessie)
+- [Build A Blog with Jekyll and GitHub on Raspberry Pi](http://oopsmonk.github.io/blog/2015/03/05/build-a-blog-with-jekyll-on-raspberry-pi)
