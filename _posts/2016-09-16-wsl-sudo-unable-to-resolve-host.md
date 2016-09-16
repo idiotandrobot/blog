@@ -10,7 +10,7 @@ The problem is that, although the PC name has been added to /etc/hostname, an en
 
 The default /etc/hosts seems to just contain an entry for localhost on 127.0.0.1.
 
-It also needs an entry for [PCNAME] on 127.0.1.1, where <>PCNAME** is the value found in /etc/hostname.
+It also needs an entry for [PCNAME] on 127.0.1.1, where [PCNAME] is the value found in /etc/hostname.
 
 via
 
