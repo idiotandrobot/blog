@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sudo: unable to to resolve host error
+title: sudo unable to to resolve host error
 tags: 
 - Ubuntu on Windows
 ---
