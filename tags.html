@@ -28,7 +28,7 @@ function toggle(id) {
     {% endfor %}
 {% else %}
     {% for tag in tags_list %}
-    <li id="{{ tag }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
+    <li id="{{ tag[0] }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
         <a href="javascript:toggle('{{ tag[0] }}');">
           {{ tag[0] }} 
         </a>
