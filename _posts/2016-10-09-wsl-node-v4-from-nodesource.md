@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Node v4 on Ubuntu on Windows
+title: Installing Node v4 on Ubuntu on Windows from NodeSource
 tags: 
 - Ubuntu on Windows
 - Node
