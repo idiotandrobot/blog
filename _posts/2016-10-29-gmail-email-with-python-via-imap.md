@@ -12,3 +12,4 @@ Also
 
 - [Very basic example of using Python and IMAP to iterate over emails in a gmail folder/label](https://gist.github.com/robulouski/7441883)
 - [Google App Passwords](https://security.google.com/settings/security/apppasswords)
+- [Python Imaplib: Get new gmail mails without reconnect](http://stackoverflow.com/questions/28190765/python-imaplib-get-new-gmail-mails-without-reconnect)
