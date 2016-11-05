@@ -16,3 +16,4 @@ Also
 - [Python : How to parse the Body from a raw email , given that raw email does not have a “Body” tag or anything](http://stackoverflow.com/questions/17874360/python-how-to-parse-the-body-from-a-raw-email-given-that-raw-email-does-not)
 - [How to check whether IMAP-IDLE works?](http://stackoverflow.com/questions/18103278/how-to-check-whether-imap-idle-works)
 - [Reliable IMAP synchronization with IDLE support](https://blog.mister-muffin.de/2013/06/05/reliable-imap-synchronization-with-idle-support/)
+- [Python — imaplib IMAP example with Gmail](https://yuji.wordpress.com/2011/06/22/python-imaplib-imap-example-with-gmail/)
