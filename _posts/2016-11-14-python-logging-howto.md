@@ -9,6 +9,7 @@ external-url: https://docs.python.org/2/howto/logging.html
 ---
 Also
 
+- [Good logging practice in Python](https://fangpenlin.com/posts/2012/08/26/good-logging-practice-in-python/)
 - [using python logging in multiple modules](http://stackoverflow.com/questions/15727420/using-python-logging-in-multiple-modules)
 - [Python logging multiple files using the same logger](http://stackoverflow.com/questions/15199816/python-logging-multiple-files-using-the-same-logger)
 - [Making Python loggers output all messages to stdout in addition to log](http://stackoverflow.com/questions/14058453/making-python-loggers-output-all-messages-to-stdout-in-addition-to-log)
