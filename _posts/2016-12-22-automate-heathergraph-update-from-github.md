@@ -7,6 +7,5 @@ tags:
 - Bash
 - Heathergraph
 ---
-Based on [How to check if a Git pull is needed](http://idiotandrobot.com/blog/is-a-git-pull-needed/)
-
+For [heathergraph](http://idiotandrobot.com/blog/heathergraph/), based on [How to check if a Git pull is needed](http://idiotandrobot.com/blog/is-a-git-pull-needed/).
 {% gist 8897bac8f1cfd97677c22554eb46f22f %}
