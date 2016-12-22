@@ -5,6 +5,7 @@ category: post
 tags:
 - Git
 - Bash
+- Heathergraph
 ---
 Based on [How to check if a Git pull is needed](http://idiotandrobot.com/blog/is-a-git-pull-needed/)
 
