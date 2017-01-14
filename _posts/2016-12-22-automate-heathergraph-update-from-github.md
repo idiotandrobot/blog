@@ -4,7 +4,7 @@ title: Automate Heathergraph Update from GitHub
 category: post
 tags:
 - Git
-- Bash
+- Git Bash
 - Heathergraph
 ---
 For [heathergraph](http://idiotandrobot.com/blog/heathergraph/), based on [How to check if a Git pull is needed](http://idiotandrobot.com/blog/is-a-git-pull-needed/). Makes a bit of a mess of logging to console but does the job.
