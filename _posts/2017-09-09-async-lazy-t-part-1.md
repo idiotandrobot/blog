@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AsyncLazy<T>: Part 1
+title: AsyncLazy&lt;T&gt;: Part 1
 category: link
 tags:
 - .NET
