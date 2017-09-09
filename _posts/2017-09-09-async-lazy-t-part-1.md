@@ -5,6 +5,7 @@ category: link
 tags:
 - .NET
 - C#
+- Async
 - Lazy
 external-url: https://blogs.msdn.microsoft.com/pfxteam/2011/01/15/asynclazyt/
 ---
