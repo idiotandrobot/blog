@@ -5,6 +5,7 @@ category: link
 tags:
 - .NET
 - C#
+- Async
 - Lazy
 external-url: http://blog.stephencleary.com/2012/08/asynchronous-lazy-initialization.html
 ---
