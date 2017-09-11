@@ -7,7 +7,7 @@ tags:
 - Jpeg
 ---
 <noscript>
-[Enumerate Jpeg Properties.ps1](https://gist.github.com/5611e6c60c1bca9dc0c54fd3c3f19862)
+  <a href="https://gist.github.com/5611e6c60c1bca9dc0c54fd3c3f19862">Gist: Enumerate Jpeg Properties.ps1</a>
 </noscript>
 {% gist 5611e6c60c1bca9dc0c54fd3c3f19862 %}
 
