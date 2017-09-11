@@ -6,6 +6,9 @@ tags:
 - Powershell
 - Jpeg
 ---
+<noscript>
+[Enumerate Jpeg Properties.ps1](https://gist.github.com/5611e6c60c1bca9dc0c54fd3c3f19862)
+</noscript>
 {% gist 5611e6c60c1bca9dc0c54fd3c3f19862 %}
 
 Via
