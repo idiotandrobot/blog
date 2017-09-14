@@ -3,7 +3,7 @@ layout: post
 title: Edit Jpeg Metadata
 category: post
 tags:
-- Powershell
+- PowerShell
 - Jpeg
 ---
 
