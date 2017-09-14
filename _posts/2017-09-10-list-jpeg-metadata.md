@@ -3,7 +3,7 @@ layout: post
 title: List Jpeg Metadata
 category: post
 tags:
-- Powershell
+- PowerShell
 - Jpeg
 ---
 <noscript>
