@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Bash on Windows Dev Environment
+title: Extract info from a web page using JavaScript
 category: link
 tags:
 - Javascript
