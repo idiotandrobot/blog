@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Creating a UWP Project with the Windows Template Studio
 category: link
 tags:
 - UWP
