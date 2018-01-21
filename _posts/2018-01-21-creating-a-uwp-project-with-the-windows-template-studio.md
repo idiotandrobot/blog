@@ -7,4 +7,4 @@ tags:
 - Windows Template Studio
 external-url: https://blogs.msmvps.com/bsonnino/2017/06/13/creating-a-uwp-project-with-the-windows-template-studio/
 ---
-Also [https://github.com/bsonnino/CustomerCrud]
+Also [https://github.com/bsonnino/CustomerCrud](https://github.com/bsonnino/CustomerCrud)
