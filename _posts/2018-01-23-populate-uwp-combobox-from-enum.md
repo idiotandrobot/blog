@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Populate UWP ComboBox from Enum
+title: Populate a UWP ComboBox from an Enum
 category: post
 tags:
 - UWP
