@@ -9,4 +9,4 @@ external-url: https://blogs.msmvps.com/bsonnino/2017/06/13/creating-a-uwp-projec
 ---
 Also 
 - [https://github.com/bsonnino/CustomerCrud](https://github.com/bsonnino/CustomerCrud)
-- https://msdn.microsoft.com/en-us/magazine/mt814994.aspx
+- [Universal Windows Platform - Creating a Line-of-Business App with the UWP](https://msdn.microsoft.com/en-us/magazine/mt814994.aspx)
