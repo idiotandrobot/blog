@@ -6,7 +6,7 @@ tags:
 - C#
 - LINQ
 ---
-No straightforward way of adding exception handling to a LINQ query.
+No straightforward way of adding exception handling to a LINQ expression using query syntax.
 
 <noscript>
   <a href="https://gist.github.com/be47c8a6ee57e533d2ce6e1ee7673647#file-linq_list_to_dictionary-cs">Gist: LINQ List to Dictionary.cs</a>
