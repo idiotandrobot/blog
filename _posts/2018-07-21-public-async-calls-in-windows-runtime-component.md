@@ -23,7 +23,7 @@ To get around this, the async method needs to be changed from public to internal
 </noscript>
 {% gist ca87bfb9d236e4103cdef75957289a59 wrt_dosomethingasync.cs %}
 
-**References**
+References
 
 - [StackOverflow: Async Calls in UWP Background Application](https://stackoverflow.com/questions/45881751/async-calls-in-uwp-background-application)
 - [MSDN: Exposing .NET tasks as WinRT asynchronous operations](https://blogs.msdn.microsoft.com/windowsappdev/2012/06/14/exposing-net-tasks-as-winrt-asynchronous-operations/)
