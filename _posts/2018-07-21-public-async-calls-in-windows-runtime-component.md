@@ -8,9 +8,7 @@ tags:
 - async/await
 ---
 Creating a [background task](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/support-your-app-with-background-tasks) for a UWP app requires a [Windows Runtime Component](https://docs.microsoft.com/en-us/windows/uwp/winrt-components/) as host 
-<br>(for [out-of-process background tasks](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/create-and-register-a-background-task)).
-
-Among the limitations for creating Windows Runtime Components is the inability to expose [Task](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task) and [Task&lt;TResult&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1) as part of the signature of a public method.
+<br>(for [out-of-process background tasks](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/create-and-register-a-background-task)). Among the limitations for creating Windows Runtime Components is the inability to expose [Task](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task) and [Task&lt;TResult&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1) as part of the signature of a public method.
 
 i.e.
 <noscript>
