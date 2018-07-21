@@ -12,16 +12,16 @@ Among the many requirements for creating Windows Runtime Components is the inabi
 
 i.e.
 <noscript>
-  <a href="https://gist.github.com/idiotandrobot/4276701258195c373c91b6cc1381d6a57d23a9d3#file-dosomethingasync-cs">Gist: Do something async</a>
+  <a href="https://gist.github.com/idiotandrobot/ca87bfb9d236e4103cdef75957289a59#file-dosomethingasync-cs">Gist: Do something async</a>
 </noscript>
-{% gist 4276701258195c373c91b6cc1381d6a57d23a9d3 dosomethingasync.cs %}
+{% gist ca87bfb9d236e4103cdef75957289a59 dosomethingasync.cs %}
 
 To get around this, the async method needs to be changed from public to internal/private (depending on local scope) and a public wrapper method provided.
 
 <noscript>
-  <a href="https://gist.github.com/idiotandrobot/4276701258195c373c91b6cc1381d6a57d23a9d3#file-wrt_dosomethingasync-cs">Gist: Do something async valid for a Windows Runtime Component</a>
+  <a href="https://gist.github.com/idiotandrobot/ca87bfb9d236e4103cdef75957289a59#file-wrt_dosomethingasync-cs">Gist: Do something async valid for a Windows Runtime Component</a>
 </noscript>
-{% gist 4276701258195c373c91b6cc1381d6a57d23a9d3 wrt_dosomethingasync.cs %}
+{% gist ca87bfb9d236e4103cdef75957289a59 wrt_dosomethingasync.cs %}
 
 References
 
