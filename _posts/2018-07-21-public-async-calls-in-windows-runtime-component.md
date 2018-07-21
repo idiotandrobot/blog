@@ -18,7 +18,7 @@ i.e.
 </noscript>
 {% gist ca87bfb9d236e4103cdef75957289a59 dosomethingasync.cs %}
 
-<p>To get around this, the async method needs to be changed from public to internal/private (depending on local scope) and a public wrapper method provided.</p>
+To get around this, the async method needs to be changed from public to internal/private (depending on local scope) and a public wrapper method provided.
 
 <noscript>
   <a href="https://gist.github.com/idiotandrobot/ca87bfb9d236e4103cdef75957289a59#file-wrt_dosomethingasync-cs">Gist: Do something async valid for a Windows Runtime Component</a>
