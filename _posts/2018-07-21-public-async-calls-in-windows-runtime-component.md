@@ -7,7 +7,9 @@ tags:
 - UWP
 - async/await
 ---
-Creating a [background task](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/support-your-app-with-background-tasks) for a UWP app requires a [Windows Runtime Component](https://docs.microsoft.com/en-us/windows/uwp/winrt-components/) as host (for [out-of-process background tasks](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/create-and-register-a-background-task)).
+Creating a [background task](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/support-your-app-with-background-tasks) for a UWP app requires a [Windows Runtime Component](https://docs.microsoft.com/en-us/windows/uwp/winrt-components/) as host 
+<br>(for [out-of-process background tasks](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/create-and-register-a-background-task)).
+
 Among the limitations for creating Windows Runtime Components is the inability to expose [Task](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task) and [Task<TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1) as part of the signature of a public method.
 
 i.e.
@@ -16,7 +18,9 @@ i.e.
 </noscript>
 {% gist ca87bfb9d236e4103cdef75957289a59 dosomethingasync.cs %}
 
+
 To get around this, the async method needs to be changed from public to internal/private (depending on local scope) and a public wrapper method provided.
+
 
 <noscript>
   <a href="https://gist.github.com/idiotandrobot/ca87bfb9d236e4103cdef75957289a59#file-wrt_dosomethingasync-cs">Gist: Do something async valid for a Windows Runtime Component</a>
