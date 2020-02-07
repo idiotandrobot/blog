@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use Configuration API in .net core console application
+title: How to use Configuration API in .NET Core Console Application
 category: link
 tags:
 - .NET Core
