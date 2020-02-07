@@ -6,3 +6,4 @@ tags:
 - .NET Core
 external-url: https://garywoodfine.com/configuration-api-net-core-console-application/
 ---
+Using appsettings.json
