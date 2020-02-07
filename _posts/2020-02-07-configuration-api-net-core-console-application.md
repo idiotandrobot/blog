@@ -6,4 +6,6 @@ tags:
 - .NET Core
 external-url: https://garywoodfine.com/configuration-api-net-core-console-application/
 ---
-Using appsettings.json
+Also
+
+- [StackOverflow: .Net Core 3.0 executable doesn't read appsettings.json](https://stackoverflow.com/q/58148450/146360)
