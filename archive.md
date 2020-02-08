@@ -18,13 +18,11 @@ permalink: /archive/
 	  <ul>
   {% endunless %}
 	<li>
-        {% if post.category == 'link' %}
-        <a href="{{ post.external-url }}" class="external-link">{{post.title}}</a>
-        {% elsif post.category == 'project' && site.github_user %}
-        <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link">{{post.title}}</a>
-        {% else %}
-        <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-        {% endif %}
+        {% if post.category == 'link' 
+        %}<a href="{{ post.external-url }}" class="external-link"></a>{% 
+        elsif post.category == 'project' && site.github_user 
+        %}<a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link"></a>{% 
+        endif %}<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>        
 	</li>
 {% endif %}
 {% endfor %}

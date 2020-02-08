@@ -52,13 +52,11 @@ function toggle(id) {
             </li>
             {% else %}
             <li>
-              {% if node.category == 'link' %}
-              <a href="{{ node.external-url }}" class="external-link">{{ node.title }}</a>
-              {% elsif node.category == 'project' && site.github_user %}
-              <a href="https://github.com/{{ site.github_user }}/{{ node.title }}" class="github-project-link">{{ node.title }}</a>
-              {% else %}
-              <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-              {% endif %}              
+              {% if node.category == 'link' 
+              %}<a href="{{ node.external-url }}" class="external-link"></a>
+              {% elsif node.category == 'project' && site.github_user 
+              %}<a href="https://github.com/{{ site.github_user }}/{{ node.title }}" class="github-project-link"></a>{% 
+              endif %}<a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
             </li>
             {% endif %}
           {% endif %}
