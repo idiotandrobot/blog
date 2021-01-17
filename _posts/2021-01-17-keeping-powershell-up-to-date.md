@@ -6,13 +6,11 @@ tags:
 - PowerShell
 ---
 ### Via Visual Studio Code ###
-
 - Install ms-vscode.powershell extension.
 - Integrated console will load and prompt to update if available.
 - On MacOS, Homebrew may complain and require `brew upgrade --cask powershell` be run instead
 
 ### Windows ###
-
 <noscript>
   <a href="https://gist.github.com/5db6b2a7609c0470b9c17b1c83bd6ffb">Gist: Update Windows Powershell</a>
 </noscript>
@@ -20,7 +18,6 @@ tags:
     
     
 ### .Net Core only ###
-
 <noscript>
   <a href="https://gist.github.com/147a7eb749297f965fa89c96ef432e7d">Gist: Update .NET Core Powershell</a>
 </noscript>
