@@ -11,10 +11,14 @@ redirect_from:
 ### [Dropbox](http://idiotandrobot.com/blog/dropbox-windows-folder-path/) ###
 
 ### OneDrive ###
-The OneDrive folder path is stored in the registry under SkyDrive.
+The OneDrive folder path was originally stored in the registry under SkyDrive, but this is no longer the case.
+
+Retrieving the contents of the `OneDriveConsumer` environment variable seems the most straightforward method.
 
 {% gist 033fecaa13bb34cb622321333cd84a2c %}
 
 via 
 
-- [Stack Overflow: Get OneDrive path in Windows](http://stackoverflow.com/questions/26771265/)
+- [Stack Overflow: Get OneDrive path in Windows][1]
+
+[1]:http://stackoverflow.com/questions/26771265/
