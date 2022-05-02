@@ -54,7 +54,7 @@ function toggle(id) {
 <li>
 {% if node.category == 'link' %}
 {% if post.links.size > 0 %}
-<a href="{{ node.links[0] }}" class="external-link"></a>
+<a href="{{ node.links.first }}" class="external-link"></a>
 {% else %}
 <a href="{{ node.external-url }}" class="external-link"></a>
 {% endif %}

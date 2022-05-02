@@ -19,7 +19,7 @@ permalink: /archive/
 <li>
 {% if post.category == 'link' %}
 {% if post.links.size > 0 %}
-<a href="{{ post.links[0] }}" class="external-link"></a>
+<a href="{{ post.links.first }}" class="external-link"></a>
 {% else %}
 <a href="{{ post.external-url }}" class="external-link"></a>
 {% endif %}
