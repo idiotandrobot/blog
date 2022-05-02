@@ -20,50 +20,55 @@ function toggle(id) {
 <ul class="tag-cloud">
 {% assign tags_list = site.tags | sort %}
 {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-    <li id="{{ tag }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
-        <a href="javascript:toggle('{{ tag }}');">
-          {{ tag }} 
-        </a>
-    </li>
-    {% endfor %}
+{% for tag in tags_list %}
+<li id="{{ tag }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
+<a href="javascript:toggle('{{ tag }}');">
+{{ tag }} 
+</a>
+</li>
+{% endfor %}
 {% else %}
-    {% for tag in tags_list %}
-    <li id="{{ tag[0] }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
-        <a href="javascript:toggle('{{ tag[0] }}');">
-          {{ tag[0] }} 
-        </a>
-    </li>
-    {% endfor %}
+{% for tag in tags_list %}
+<li id="{{ tag[0] }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
+<a href="javascript:toggle('{{ tag[0] }}');">
+{{ tag[0] }} 
+</a>
+</li>
+{% endfor %}
 {% endif %}
 {% assign tags_list = nil %}
 </ul>
 {% for tag in site.tags %}
 <div id="{{ tag[0] }}" style="display: none">
-    <h2 class='tag-header' id="{{ tag[0] }}">{{ tag[0] }}</h2>
-    <ul>
-      {% assign pages_list = tag[1] %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if group == null or group == node.group %}
-            {% if page.url == node.url %}
-            <li class="active">
-              <a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a>
-            </li>
-            {% else %}
-            <li>
-              {% if node.category == 'link' 
-              %}<a href="{{ node.external-url }}" class="external-link"></a>
-              {% elsif node.category == 'project' && site.github_user 
-              %}<a href="https://github.com/{{ site.github_user }}/{{ node.title }}" class="github-project-link"></a>{% 
-              endif %}<a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-            </li>
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      {% assign pages_list = nil %}
-      {% assign group = nil %}
-    </ul>
+<h2 class='tag-header' id="{{ tag[0] }}">{{ tag[0] }}</h2>
+<ul>
+{% assign pages_list = tag[1] %}
+{% for node in pages_list %}
+{% if node.title != null %}
+{% if group == null or group == node.group %}
+{% if page.url == node.url %}
+<li class="active">
+<a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a>
+</li>
+{% else %}
+<li>
+{% if node.category == 'link' %}
+{% if post.links.size > 0 %}
+<a href="{{ node.links[0] }}" class="external-link"></a>
+{% else %}
+<a href="{{ node.external-url }}" class="external-link"></a>
+{% endif %}
+{% elsif node.category == 'project' && site.github_user %}
+<a href="https://github.com/{{ site.github_user }}/{{ node.title }}" class="github-project-link"></a>
+{% endif %}
+<a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+</li>
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}
+</ul>
 </div>
 {% endfor %}
