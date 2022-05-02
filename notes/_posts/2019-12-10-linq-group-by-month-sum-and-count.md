@@ -1,6 +1,6 @@
 ---
 title: LINQ Group by Month, Sum and Count
-date: 2019-12-10
+layout: post
 tags:
 - LINQ
 links:

@@ -1,6 +1,6 @@
 ---
 title: Hex <--> int
-date: 2018-08-17
+layout: note
 tags:
 - C#
 links:

@@ -1,7 +1,6 @@
 ---
 title: UWP Logging
-date: 2018-07-30
-layout: note
+layout: post
 tags:
 - UWP
 links:
