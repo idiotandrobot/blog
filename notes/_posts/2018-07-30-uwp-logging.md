@@ -1,6 +1,5 @@
 ---
 title: UWP Logging
-layout: post
 tags:
 - UWP
 links:

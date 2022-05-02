@@ -76,6 +76,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-redirect-from
   - jekyll-gist
+  - jekyll-default-layout
 
 # Exclude these files from your production _site
 exclude:

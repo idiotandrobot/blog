@@ -1,8 +1,6 @@
 ---
 title: Xamarin Pop-up Form
-layout: post
-tags:
-- Xamarin
+tags: Xamarin
 links:
 - https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/choose-layout
 - https://stackoverflow.com/questions/36961951/how-to-create-a-form-in-a-pop-up-using-xamarin-forms

@@ -1,6 +1,5 @@
 ---
 title: Hex <--> int
-layout: note
 tags:
 - C#
 links:
