@@ -1,5 +1,6 @@
 ---
-layout: note
+title: Xamarin Pop-up Form
+date: 2019-12-10
 tags:
 - Xamarin
 links:

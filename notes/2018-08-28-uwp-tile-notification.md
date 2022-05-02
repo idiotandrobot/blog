@@ -1,5 +1,6 @@
 ---
-layout: note
+title: UWP Tile Notification
+date: 2018-08-28
 tags:
 - UWP
 links:

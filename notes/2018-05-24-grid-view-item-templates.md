@@ -1,4 +1,6 @@
 ---
+title: Grid View Item Templates
+date: 2018-05-24
 layout: note
 tags:
 - UWP
