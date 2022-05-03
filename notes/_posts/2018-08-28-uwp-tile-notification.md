@@ -1,6 +1,5 @@
 ---
 title: UWP Tile Notification
-category: link
 tags: UWP
-links: https://docs.microsoft.com/en-us/windows/uwp/design/shell/tiles-and-notifications/sending-a-local-tile-notification
+link: https://docs.microsoft.com/en-us/windows/uwp/design/shell/tiles-and-notifications/sending-a-local-tile-notification
 ---

@@ -1,6 +1,5 @@
 ---
 title: Chrome Extension - How to Scrape Data from a List of Pages
-category: link
 tags:
 - Json
 - Javascript
