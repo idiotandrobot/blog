@@ -6,7 +6,7 @@ layout: default
 <article class="post">    
 <h1>
 {% if post.link -%}
-{% include post/link.html title = "" links = post.links %}
+{% include post/link.html title = "" link = post.link %}
 {% elsif post.category == 'project' && site.github_user -%}
 <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link"></a>
 {% endif -%}
@@ -19,7 +19,7 @@ layout: default
 {{ post.excerpt }}
 {% endif -%}
 </div>
-{% include post/links.html links = post.links category = post.category %}
+{% include post/links.html links = post.links category = "" %}
 {% if post.content != post.excerpt -%}
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 {% endif -%}
