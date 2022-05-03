@@ -1,11 +1,13 @@
-<!--{{post.links.class}}-->
-<!--{{post.title}}-->
-{% if post.links.kind_of?(String) -%}
+<!--Title:{{post.title}}-->
+{% capture links %}{{ post.links }}{% endcapture -%}
+<!--Class:{{links.class}}-->
+
+{% if links.class(String) -%}
 <!--String-->
 {% capture href %}{{ post.links }}{% endcapture -%}
-{% elsif post.links.kind_of?(Array) -%}
+{% elsif inks.kind_of?(Array) -%}
 <!--Array-->
-{% capture href %}{{ post.links[0] }}{% endcapture -%}
+{% capture href %}{{ links[0] }}{% endcapture -%}
 {% else -%}
 <!--external-url-->
 {% capture href %}{{ post.external-url }}{% endcapture -%}

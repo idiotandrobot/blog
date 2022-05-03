@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-{% capture post %}{{ page }}{% endcapture -%}
 <article class="post">
 {% if page.category == 'link' -%}
-{% include post/link.html %}
+{% include post/link.html post = page %}
 {% elsif page.category == 'project' && site.github_user -%}
 <h1><a href="https://github.com/{{ site.github_user }}/{{ page.title }}" class="github-project-link">{{ page.title }}</a></h1>
 {% else -%}
