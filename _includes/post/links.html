@@ -1,10 +1,9 @@
-<!--{{ include.links }}-->
+{% if links[0] -%}
 {% if include.category == "link" -%}
-{% capture links %}{{ include.links | shift }}{% endcapture -%}
+{% capture links %}{{ include.links.split | shift }}{% endcapture -%}
 {% else -%}
-{% capture links %}{{ include.links }}{% endcapture -%}
+{% capture links %}{{ include.links.split }}{% endcapture -%}
 {% endif -%}
-<!--{{ links }}-->
 {% if links.size > 0 -%}
 {% if include.category == "link" -%}
 Also
@@ -15,4 +14,5 @@ Also
 <li><a href="{{ link }}">{{ link }}</a></li>
 {% endfor -%}
 </ul>
+{% endif -%}
 {% endif -%}
