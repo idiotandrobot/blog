@@ -3,8 +3,8 @@ layout: default
 ---
 <article class="post">
 <h1>
-{% if page.category == 'link' -%}
-{% include post/link.html title = page.title links = page.links %}
+{% if page.link -%}
+{% include post/link.html title = page.title link = page.link %}
 {% elsif page.category == 'project' && site.github_user -%}
 <a href="https://github.com/{{ site.github_user }}/{{ page.title }}" class="github-project-link">{{ page.title }}</a>
 {% else -%}

@@ -5,5 +5,5 @@ tags:
 - Json
 - Javascript
 - Chrome
-links: https://usefulangle.com/post/339/chrome-extension-create-page-scraper
+link: https://usefulangle.com/post/339/chrome-extension-create-page-scraper
 ---

@@ -1,14 +1,15 @@
 {% if include.links[0] and include.links.size > 0 -%}
-{% if include.category == "link" -%}
-Also
+{% if include.category -%}
+{{ include.category }}
 <br/>
-{% assign link_offset = 1 -%}
-{% else -%}
-{% assign link_offset = 0 -%}
 {% endif -%}
 <ul>
-{% for link in include.links offset: link_offset -%}
+{% for link in include.links -%}
+{% if link.first == "[" -%}
+<li>{{ link }}</li>
+{% else -%}
 <li><a href="{{ link }}">{{ link }}</a></li>
+{% endif -%}
 {% endfor -%}
 </ul>
 {% endif -%}

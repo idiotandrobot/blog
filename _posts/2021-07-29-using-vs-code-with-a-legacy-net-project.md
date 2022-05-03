@@ -1,10 +1,9 @@
 ---
 title: Using VS Code with a Legacy .NET Project
-category: link
 tags:
 - Visual Studio Code
 - .NET Framework
-links: https://www.coderedcorp.com/blog/using-vs-code-with-a-legacy-net-project/
+link: https://www.coderedcorp.com/blog/using-vs-code-with-a-legacy-net-project/
+links:
+- [Debugging Configuration](https://github.com/OmniSharp/omnisharp-vscode/wiki/Desktop-.NET-Framework (64-bit only))
 ---
-Also
-- [Debugging Configuration](https://github.com/OmniSharp/omnisharp-vscode/wiki/Desktop-.NET-Framework) (64-bit only)

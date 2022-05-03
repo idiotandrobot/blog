@@ -11,7 +11,7 @@ links:
 - https://stackoverflow.com/questions/26303631/how-to-use-unsigned-int-long-types-with-entity-framework
 ---
 1. EF doesn't support unsigned types. Use long for uint.
-2. [DatabaseGenerated(DatabaseGeneratedOption.None)] attribute to turn off auto generated keys.
-3. DbContext.Table.RemoveRange(from c in DbContext.Table select c) to clear table. Or ((IObjectContextAdapter)DbContext).ObjectContext.ExecuteStoreCommand("TRUNCATE TABLE [Table]") for quick and dirty.
-4. [Key] attribute to define primary key
-5. Use [Table("[Table]")] on class for table name
+2. `[DatabaseGenerated(DatabaseGeneratedOption.None)]` attribute to turn off auto generated keys.
+3. `DbContext.Table.RemoveRange(from c in DbContext.Table select c)` to clear table. Or `((IObjectContextAdapter)DbContext).ObjectContext.ExecuteStoreCommand("TRUNCATE TABLE [Table]")` for quick and dirty.
+4. `[Key]` attribute to define primary key
+5. Use `[Table("[Table]")]` on class for table name
