@@ -2,36 +2,32 @@
 layout: default
 ---
 <article class="post">
-{% if page.category == 'link' %}
-{% if post.links.size > 0 %}
+{% if page.category == 'link' -%}
+{% if post.links.size > 0 -%}
 <h1><a href="{{ page.links.first }}" class="external-link">{{ page.title }}</a></h1>
-{% else %}
+{% else -%}
 <h1><a href="{{ page.external-url }}" class="external-link">{{ page.title }}</a></h1>
-{% endif %} 
-{% elsif page.category == 'project' && site.github_user %}
+{% endif -%} 
+{% elsif page.category == 'project' && site.github_user -%}
 <h1><a href="https://github.com/{{ site.github_user }}/{{ page.title }}" class="github-project-link">{{ page.title }}</a></h1>
-{% else %}
+{% else -%}
 <h1>{{ page.title }}</h1>
-{% endif %}  
+{% endif -%}  
 {% include post/meta.html %}
 <div class="entry">
 {{ content }}
 </div>
-
 <div id="page-navigation"> 
-
-  <div class="previous"> 
-{% if page.previous.url %} 
+<div class="previous"> 
+{% if page.previous.url -%} 
 <a href="{{ site.baseurl }}{{ page.previous.url }}" title="Previous Post: {{page.previous.title}}">{{page.previous.title}}</a>
-{% endif %} 
+{% endif -%}
 </div>
-
 <div class="next"> 
-{% if page.next.url %} 
+{% if page.next.url -%} 
 <a href="{{ site.baseurl }}{{ page.next.url }}" title="next Post: {{page.next.title}}">{{page.next.title}}</a> 
-{% endif %} 
+{% endif -%} 
 </div>
 </div> 
-
-{% include disqus.html disqus_identifier=page.disqus_identifier %}
+{% include disqus.html disqus_identifier=page.disqus_identifier -%}
 </article>

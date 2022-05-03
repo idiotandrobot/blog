@@ -1,7 +1,6 @@
-{% if post.url %}
-  {% assign path = post.path %}
-{% else %}
-  {% assign path = page.path %}
-{% endif %}
-
+{% if post.url -%}
+{% assign path = post.path -%}
+{% else -%}
+{% assign path = page.path -%}
+{% endif -%}
 <a href="{{ site.github_repo_url }}edit/gh-pages/{{ path }}" target="_blank">edit</a>

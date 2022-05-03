@@ -18,57 +18,57 @@ function toggle(id) {
 } 
 </script>
 <ul class="tag-cloud">
-{% assign tags_list = site.tags | sort %}
-{% if tags_list.first[0] == null %}
-{% for tag in tags_list %}
+{% assign tags_list = site.tags | sort -%}
+{% if tags_list.first[0] == null -%}
+{% for tag in tags_list -%}
 <li id="{{ tag }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
 <a href="javascript:toggle('{{ tag }}');">
 {{ tag }} 
 </a>
 </li>
-{% endfor %}
-{% else %}
-{% for tag in tags_list %}
+{% endfor -%}
+{% else -%}
+{% for tag in tags_list -%}
 <li id="{{ tag[0] }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
 <a href="javascript:toggle('{{ tag[0] }}');">
 {{ tag[0] }} 
 </a>
 </li>
-{% endfor %}
-{% endif %}
-{% assign tags_list = nil %}
+{% endfor -%}
+{% endif -%}
+{% assign tags_list = nil -%}
 </ul>
 {% for tag in site.tags %}
 <div id="{{ tag[0] }}" style="display: none">
 <h2 class='tag-header' id="{{ tag[0] }}">{{ tag[0] }}</h2>
 <ul>
-{% assign pages_list = tag[1] %}
-{% for node in pages_list %}
-{% if node.title != null %}
-{% if group == null or group == node.group %}
-{% if page.url == node.url %}
+{% assign pages_list = tag[1] -%}
+{% for node in pages_list -%}
+{% if node.title != null -%}
+{% if group == null or group == node.group -%}
+{% if page.url == node.url -%}
 <li class="active">
 <a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a>
 </li>
-{% else %}
+{% else -%}
 <li>
-{% if node.category == 'link' %}
-{% if post.links.size > 0 %}
+{% if node.category == 'link' -%}
+{% if node.links.size > 0 -%}
 <a href="{{ node.links.first }}" class="external-link"></a>
-{% else %}
+{% else -%}
 <a href="{{ node.external-url }}" class="external-link"></a>
-{% endif %}
-{% elsif node.category == 'project' && site.github_user %}
+{% endif -%}
+{% elsif node.category == 'project' && site.github_user -%}
 <a href="https://github.com/{{ site.github_user }}/{{ node.title }}" class="github-project-link"></a>
-{% endif %}
+{% endif -%}
 <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
 </li>
-{% endif %}
-{% endif %}
-{% endif %}
-{% endfor %}
-{% assign pages_list = nil %}
-{% assign group = nil %}
+{% endif -%}
+{% endif -%}
+{% endif -%}
+{% endfor -%}
+{% assign pages_list = nil -%}
+{% assign group = nil -%}
 </ul>
 </div>
-{% endfor %}
+{% endfor -%}

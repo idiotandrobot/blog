@@ -2,32 +2,32 @@
 layout: default
 ---
 <div class="posts">
-{% for post in site.posts %}
+{% for post in site.posts -%}
 <article class="post">    
 <h1>
-{% if post.category == 'link' %}
-{% if post.links.size > 0 %}
+{% if post.category == 'link' -%}
+{% if post.links.size > 0 -%}
 <a href="{{ post.links | first }}" class="external-link"></a>
-{% else %}
+{% else -%}
 <a href="{{ post.external-url }}" class="external-link"></a>
-{% endif %}
-{% elsif post.category == 'project' && site.github_user %}
+{% endif -%}
+{% elsif post.category == 'project' && site.github_user -%}
 <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link"></a>
-{% endif %}
+{% endif -%}
 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-{% include post/meta.html %}
+{% include post/meta.html -%}
 <div class="entry">
-{% if post.category == 'link' or post.category == 'project' %}
+{% if post.category == 'link' or post.category == 'project' -%}
 {{ post.content }}
-{% else %}      
+{% else -%}      
 {{ post.excerpt }}
-{% endif %}
+{% endif -%}
 </div>
-{% if post.category == 'link' %}
-{% elsif post.category == 'project' %}
-{% else %}
+{% if post.category == 'link' -%}
+{% elsif post.category == 'project' -%}
+{% else -%}
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-{% endif %}
+{% endif -%}
 </article>
-{% endfor %}
+{% endfor -%}
 </div>
