@@ -3,9 +3,12 @@
 {% else -%}
 {% capture links %}{{ include.links }}{% endcapture -%}
 {% endif -%}
+<!--{{ links }}-->
 {% if links.size > 0 -%}
+{% if include.category == "link" -%}
 Also
 <br/>
+{% endif -%}
 <ul>
 {% for link in links -%}
 <li><a href="{{ link }}"></a></li>
