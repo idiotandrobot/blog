@@ -1,12 +1,12 @@
 <!--Title:{{include.title}}-->
 <!--Links:{{include.links}}-->
-<!--Class:{{include.links.class}}-->
-{% if include.links.kind_of(String) -%}
-<!--String-->
-{% capture href %}{{ include.links }}{% endcapture -%}
-{% elsif include.links.kind_of?(Array) -%}
+<!--First:{{include.links.first}}-->
+{% if include.links[0] -%}
 <!--Array-->
 {% capture href %}{{ include.links[0] }}{% endcapture -%}
+{% elsif include.links != nil -%}
+<!--String-->
+{% capture href %}{{ include.links }}{% endcapture -%}
 {% endif -%}
 {% if href == nil -%}
 {{ include.title }}
