@@ -15,7 +15,25 @@ layout: default
 <div class="entry">
 {{ content }}
 </div>
-{% include post/links.html links = page.links category = page.category %}
+<!--{{ page.links }}-->
+{% if page.category == "link" -%}
+{% capture links %}{{ page.links | offset }}{% endcapture -%}
+{% else -%}
+{% capture links %}{{ page.links }}{% endcapture -%}
+{% endif -%}
+<!--{{ links }}-->
+{% if links.size > 0 -%}
+{% if include.category == "link" -%}
+Also
+<br/>
+{% endif -%}
+<ul>
+{% for link in links -%}
+<li><a href="{{ link }}">{{ link }}</a></li>
+{% endfor -%}
+</ul>
+{% endif -%}
+<!-- {% include post/links.html links = page.links category = page.category %} -->
 <div id="page-navigation"> 
 <div class="previous"> 
 {% if page.previous.url -%} 
