@@ -22,23 +22,19 @@ function toggle(id) {
 {% if tags_list.first[0] == null -%}
 {% for tag in tags_list -%}
 <li id="{{ tag }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
-<a href="javascript:toggle('{{ tag }}');">
-{{ tag }} 
-</a>
+<a href="javascript:toggle('{{ tag }}');">{{ tag }}</a>
 </li>
 {% endfor -%}
 {% else -%}
 {% for tag in tags_list -%}
 <li id="{{ tag[0] }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
-<a href="javascript:toggle('{{ tag[0] }}');">
-{{ tag[0] }} 
-</a>
+<a href="javascript:toggle('{{ tag[0] }}');">{{ tag[0] }}</a>
 </li>
 {% endfor -%}
 {% endif -%}
 {% assign tags_list = nil -%}
 </ul>
-{% for tag in site.tags %}
+{% for tag in site.tags -%}
 <div id="{{ tag[0] }}" style="display: none">
 <h2 class='tag-header' id="{{ tag[0] }}">{{ tag[0] }}</h2>
 <ul>
