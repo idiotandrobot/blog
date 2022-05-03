@@ -1,5 +1,7 @@
 ---
-layout: post
+tags:
+- Windows
+- Environment Variables
 ---
 - %PROGRAMFILES%
 - %PROGRAMFILES(x86)%
