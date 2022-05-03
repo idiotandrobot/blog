@@ -1,0 +1,14 @@
+{% if include.category == "link" -%}
+{% capture links %}{{ include.links | shift }}{% endcapture -%}
+{% else -%}
+{% capture links %}{{ include.links }}{% endcapture -%}
+{% endif -%}
+{% if links.size > 0 -%}
+Also
+<br/>
+<ul>
+{% for link in links -%}
+<li><a href="{{ link }}"></a></li>
+{% endfor -%}
+</ul>
+{% endif -%}
