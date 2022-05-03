@@ -1,8 +1,13 @@
+<!--{{post.links.class}}-->
+<!--{{post.title}}-->
 {% if post.links.kind_of?(String) -%}
+<!--String-->
 {% capture href %}{{ post.links }}{% endcapture -%}
-{% elsif post.links.kind_of?(String) -%}
-{% capture href %}{{ post.links.first }}{% endcapture -%}
+{% elsif post.links.kind_of?(Array) -%}
+<!--Array-->
+{% capture href %}{{ post.links[0] }}{% endcapture -%}
 {% else -%}
+<!--external-url-->
 {% capture href %}{{ post.external-url }}{% endcapture -%}
 {% endif -%}
 <h1><a href="{{ href }}" class="external-link">{{ post.title }}</a></h1>
