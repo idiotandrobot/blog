@@ -1,8 +1,8 @@
-{% if links[0] -%}
+{% if include.links[0] -%}
 {% if include.category == "link" -%}
-{% capture links %}{{ include.links.split | shift }}{% endcapture -%}
+{% capture links %}{{ include.links | offset }}{% endcapture -%}
 {% else -%}
-{% capture links %}{{ include.links.split }}{% endcapture -%}
+{% capture links %}{{ include.links }}{% endcapture -%}
 {% endif -%}
 {% if links.size > 0 -%}
 {% if include.category == "link" -%}
