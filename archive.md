@@ -18,7 +18,7 @@ permalink: /archive/
 {% endunless -%}
 <li>
 {% if post.category == 'link' -%}
-{% include post/link.html %}
+{% include post/link.html title = post.title links = post.links %}
 {% elsif post.category == 'project' && site.github_user -%}
 <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link"></a>
 {% endif -%}

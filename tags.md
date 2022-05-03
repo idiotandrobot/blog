@@ -49,7 +49,7 @@ function toggle(id) {
 {% else -%}
 <li>
 {% if post.category == 'link' -%}
-{% include post/link.html title = post.title, links = post.links -%}
+{% include post/link.html title = post.title links = post.links -%}
 {% elsif post.category == 'project' && site.github_user -%}
 <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link"></a>
 {% endif -%}
