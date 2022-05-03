@@ -1,0 +1,8 @@
+{% if post.links.kind_of?(String) -%}
+{% capture href %}{{ post.links }}{% endcapture -%}
+{% elif post.links.kind_of?(String) -%}
+{% capture href %}{{ post.links.first }}{% endcapture -%}
+{% else -%}
+{% capture href %}{{ post.external-url }}{% endcapture -%}
+{% endif -%}
+<h1><a href="{{ href }}" class="external-link">{{ post.title }}</a></h1>

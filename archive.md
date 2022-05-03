@@ -18,11 +18,7 @@ permalink: /archive/
 {% endunless -%}
 <li>
 {% if post.category == 'link' -%}
-{% if post.links.size > 0 -%}
-<a href="{{ post.links.first }}" class="external-link"></a>
-{% else -%}
-<a href="{{ post.external-url }}" class="external-link"></a>
-{% endif -%}
+{% include post/link.html %}
 {% elsif post.category == 'project' && site.github_user -%}
 <a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link"></a>
 {% endif -%}

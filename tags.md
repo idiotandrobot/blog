@@ -39,25 +39,21 @@ function toggle(id) {
 <h2 class='tag-header' id="{{ tag[0] }}">{{ tag[0] }}</h2>
 <ul>
 {% assign pages_list = tag[1] -%}
-{% for node in pages_list -%}
-{% if node.title != null -%}
-{% if group == null or group == node.group -%}
-{% if page.url == node.url -%}
+{% for post in pages_list -%}
+{% if post.title != null -%}
+{% if group == null or group == post.group -%}
+{% if page.url == post.url -%}
 <li class="active">
-<a href="{{ site.baseurl }}{{ node.url }}" class="active">{{ node.title }}</a>
+<a href="{{ site.baseurl }}{{ post.url }}" class="active">{{ post.title }}</a>
 </li>
 {% else -%}
 <li>
-{% if node.category == 'link' -%}
-{% if node.links.size > 0 -%}
-<a href="{{ node.links.first }}" class="external-link"></a>
-{% else -%}
-<a href="{{ node.external-url }}" class="external-link"></a>
+{% if post.category == 'link' -%}
+{% include post/link.html %}
+{% elsif post.category == 'project' && site.github_user -%}
+<a href="https://github.com/{{ site.github_user }}/{{ post.title }}" class="github-project-link"></a>
 {% endif -%}
-{% elsif node.category == 'project' && site.github_user -%}
-<a href="https://github.com/{{ site.github_user }}/{{ node.title }}" class="github-project-link"></a>
-{% endif -%}
-<a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 </li>
 {% endif -%}
 {% endif -%}
