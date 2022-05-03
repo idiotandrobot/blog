@@ -1,15 +1,15 @@
-<!--Title:{{title}}-->
-<!--Links:{{links}}-->
-<!--Class:{{links.class}}-->
-{% if links.kind_of(String) -%}
+<!--Title:{{include.title}}-->
+<!--Links:{{include.links}}-->
+<!--Class:{{include.links.class}}-->
+{% if include.links.kind_of(String) -%}
 <!--String-->
-{% capture href %}{{ links }}{% endcapture -%}
-{% elsif links.kind_of?(Array) -%}
+{% capture href %}{{ include.links }}{% endcapture -%}
+{% elsif include.links.kind_of?(Array) -%}
 <!--Array-->
-{% capture href %}{{ links[0] }}{% endcapture -%}
+{% capture href %}{{ include.links[0] }}{% endcapture -%}
 {% endif -%}
 {% if href == nil -%}
-<h1>{{ title }}</h1>
+{{ include.title }}
 {% else -%}
-<h1><a href="{{ href }}" class="external-link">{{ title }}</a></h1>
+<a href="{{ href }}" class="external-link">{{ include.title }}</a>
 {% endif -%}
