@@ -5,7 +5,7 @@ tags:
 - Motion
 links:
 - [RasPi Camera Board and Motion,http://raspberrypi.stackexchange.com/questions/10480/raspi-camera-board-and-motion]
-- [Official V4L2 driver,https://www.raspberrypi.org/forums/viewtopic.php?t=62364]
+- [Official V4L2 driver,"https://www.raspberrypi.org/forums/viewtopic.php?t=62364"]
 ---
 
 Add `bcm2835-v4l2` to `/etc/modules`
