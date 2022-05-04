@@ -6,7 +6,7 @@ tags:
 - Chrome
 - Json
 - Css
-links:
-- ["Hide StackOverflow "Hot Network Questions" in Chrome",http://idiotandrobot.com/blog/no-stackexchange-hot-network-questions/]
+also:
+- 2017-11-28-no-stackexchange-hot-network-questions.md
 ---
 Simple chrome extension to hide distracting sidebar elements on [StackOverflow](https://stackoverflow.com).
