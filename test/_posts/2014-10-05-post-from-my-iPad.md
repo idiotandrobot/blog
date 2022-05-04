@@ -1,6 +1,5 @@
 ---
 title: Post from my iPad
-category: test
 date: 2014-10-05 11:07 +0100
 ---
 Bit of a cheat as I've just done the phone post and so therefore can just about remember all the criteria for a valid post. Maybe try again later and see how that goes.

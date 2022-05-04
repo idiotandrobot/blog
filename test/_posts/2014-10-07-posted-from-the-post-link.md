@@ -1,5 +1,4 @@
 ---
-category: test
 date: 2014-10-07 11:25 +0100
 ---
 Test post using the "Post" link at the top of the page.
