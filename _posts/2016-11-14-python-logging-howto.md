@@ -1,11 +1,9 @@
 ---
-layout: post
 title: Python Logging HOWTO
-category: link
 tags:
 - Python
 - Logging
-external-url: https://docs.python.org/2/howto/logging.html
+link: https://docs.python.org/2/howto/logging.html
 ---
 Also
 

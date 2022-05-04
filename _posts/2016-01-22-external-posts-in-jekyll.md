@@ -1,11 +1,8 @@
 ---
-layout: post
 title: External Posts In Jekyll
-category: link
 tags:
 - Jekyll
-external-url: https://robots.thoughtbot.com/external-posts-in-jekyll
-external-author: Caleb Thompson
+link: https://robots.thoughtbot.com/external-posts-in-jekyll
 ---
 Not compatible with having next/previous post links but potential improvement coming from rss feed/twitter. 
 

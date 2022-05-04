@@ -1,10 +1,8 @@
 ---
-layout: post
 title: Introduction to PowerShell 5 Classes
-category: link
 tags:
 - PowerShell
-external-url: https://blogs.technet.microsoft.com/heyscriptingguy/2015/08/31/introduction-to-powershell-5-classes/
+link: https://blogs.technet.microsoft.com/heyscriptingguy/2015/08/31/introduction-to-powershell-5-classes/
 ---
 Also
 

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Mark .NET application to run as Administrator
-category: post
 tags:
 - Visual Studio
 - .NET

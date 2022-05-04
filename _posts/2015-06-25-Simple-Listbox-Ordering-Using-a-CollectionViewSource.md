@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Simple Listbox Ordering using a CollectionViewSource
 tags: 
 - XAML

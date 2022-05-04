@@ -1,8 +1,11 @@
 ---
-layout: post
 title: sudo&#58; unable to to resolve host error
 tags: 
 - Ubuntu on Windows
+links:
+- ["Error message when I run sudo: unable to resolve host (none)",http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none]
+- [What is difference between localhost address 127.0.0.1 and 127.0.1.1,http://askubuntu.com/questions/754213/what-is-difference-between-localhost-address-127-0-0-1-and-127-0-1-1]
+- [Error 0x80070490 after modifying /etc/hosts from Windows,https://github.com/Microsoft/BashOnWindows/issues/735]
 ---
 On all my Ubuntu on Windows installs to date I've initially got a `sudo: unable to resolve host [PCNAME]` error when running a command with sudo.
 
@@ -17,9 +20,3 @@ Modifying files inside of %localappdata%\lxss from Windows is not supported in W
 
 **TL:DR**
 The best way of resolving this is to delete /etc/hosts and the next Bash session will autogenerate a file with the correct contents.
-
-via
-
-- [Error message when I run sudo: unable to resolve host (none)](http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none)
-- [What is difference between localhost address 127.0.0.1 and 127.0.1.1](http://askubuntu.com/questions/754213/what-is-difference-between-localhost-address-127-0-0-1-and-127-0-1-1)
-- [Error 0x80070490 after modifying /etc/hosts from Windows](https://github.com/Microsoft/BashOnWindows/issues/735)

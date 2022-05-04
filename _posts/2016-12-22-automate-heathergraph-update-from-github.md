@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Automate Heathergraph Update from GitHub
-category: post
 tags:
 - Git
 - Git Bash

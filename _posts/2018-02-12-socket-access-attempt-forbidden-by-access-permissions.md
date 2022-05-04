@@ -1,7 +1,5 @@
 ---
-layout: post
 title: UWP use StreamSocket instead of TcpClient
-category: post
 tags:
 - C#
 - UWP

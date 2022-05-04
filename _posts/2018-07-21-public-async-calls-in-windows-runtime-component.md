@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Using async keyword in windows runtime components
-category: post
 tags:
 - C#
 - UWP

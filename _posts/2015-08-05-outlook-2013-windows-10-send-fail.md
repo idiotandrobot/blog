@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Outlook 2013 not sending emails since Windows 10 upgrade
 tags: 
 - Windows 10 

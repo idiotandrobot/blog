@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Edit Jpeg Metadata
-category: post
 tags:
 - PowerShell
 - Jpeg

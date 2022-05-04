@@ -1,11 +1,9 @@
 ---
-layout: post
 title: How to check if a Git pull is needed
-category: link
 tags:
 - Git
 - Git Bash
-external-url: http://stackoverflow.com/a/3278427/146360
+link: http://stackoverflow.com/a/3278427/146360
 ---
 Also
 

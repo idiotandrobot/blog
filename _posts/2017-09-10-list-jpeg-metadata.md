@@ -1,7 +1,5 @@
 ---
-layout: post
 title: List Jpeg Metadata
-category: post
 tags:
 - PowerShell
 - Jpeg

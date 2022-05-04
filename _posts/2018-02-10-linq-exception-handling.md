@@ -1,7 +1,5 @@
 ---
-layout: post
 title: LINQ Expression error handling
-category: post
 tags:
 - C#
 - LINQ

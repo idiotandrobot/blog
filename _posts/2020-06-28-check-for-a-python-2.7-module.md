@@ -1,10 +1,8 @@
 ---
-layout: post
 title: Check for a Python 2.7 module
-category: link
 tags:
 - Python
-external-url: https://docs.python.org/2/library/imp.html#module-imp
+link: https://docs.python.org/2/library/imp.html#module-imp
 ---
 Also
 

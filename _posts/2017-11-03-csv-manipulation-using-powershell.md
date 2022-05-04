@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Csv Manipulation using PowerShell
-category: post
 tags:
 - PowerShell
 - Csv

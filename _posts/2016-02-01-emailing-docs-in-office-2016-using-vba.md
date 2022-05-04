@@ -1,10 +1,12 @@
 ---
-layout: post
 title: Emailing documents in Office 2016 using VBA
 tags:
 - Office
 - Office 2016
 - VBA
+links:
+- [Attachments.Add Method (Outlook),https://msdn.microsoft.com/en-us/library/office/ff869553.aspx]
+- [OlAttachmentType Enumeration (Outlook),https://msdn.microsoft.com/en-us/library/office/ff868693.aspx]
 ---
 Historically the default 'Email' button in Word/Excel had some limitations that made it mostly unusable. 
 It's tendency not to save messages to 'Sent Items' being it's worst fault, but also the default Subject and Body content weren't great.
@@ -35,7 +37,3 @@ As an aside the 'Default' email behaviour and default content in Office 2016 see
 
 {% gist 21fc665e652ffd53a81f %}
 
-**References**
-
-- [Attachments.Add Method (Outlook)](https://msdn.microsoft.com/en-us/library/office/ff869553.aspx)
-- [OlAttachmentType Enumeration (Outlook)](https://msdn.microsoft.com/en-us/library/office/ff868693.aspx)

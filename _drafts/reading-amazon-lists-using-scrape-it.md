@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Reading Amazon Lists using Scrape-It in Glitch
-category: post
 tags:
 - Javascript
 - Node.js

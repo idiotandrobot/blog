@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Keeping PowerShell Up-to-date
-category: post
 tags:
 - PowerShell
 ---

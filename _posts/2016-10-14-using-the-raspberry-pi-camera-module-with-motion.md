@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using the Raspberry Pi Camera module with Motion
 tags: 
 - Raspberry Pi

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: UWP Multi-line TextBox
-category: post
 tags:
 - UWP
 - XAML

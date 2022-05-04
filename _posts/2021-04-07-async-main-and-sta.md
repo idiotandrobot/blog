@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Async Main and Single Threaded Apartment
 tags:
 - C#

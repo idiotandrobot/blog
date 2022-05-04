@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Using CsvHelper GetRecords with a Non-standard Csv
-category: post
 tags:
 - .NET
 - C#

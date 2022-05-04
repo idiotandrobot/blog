@@ -1,7 +1,5 @@
 ---
-layout: post
 title: UWP CollectionViewSource Notes
-category: post
 tags:
 - UWP
 - XAML

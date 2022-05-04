@@ -1,7 +1,5 @@
 ---
-layout: post
 title: UWP AppBarButton Focus
-category: post
 tags:
 - UWP
 - XAML

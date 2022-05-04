@@ -1,5 +1,4 @@
 ---
-layout: post
 title: TextBlock StringFormat Support in Windows Phone 8.1 Projects
 tags: 
 - Windows Phone 8.1 

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Stretch UWP MasterDetailsView ListViewItems to full width
-category: post
 tags:
 - UWP
 - XAML

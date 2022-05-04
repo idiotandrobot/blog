@@ -1,5 +1,4 @@
 ---
-layout: post
 category: test
 date: 2014-10-07 11:25 +0100
 ---

@@ -1,10 +1,8 @@
 ---
-layout: post
 title: Many-to-Many Relationships in EF Core 2.0
-category: link
 tags:
 - Entity Framework Core
-external-url: https://blog.oneunicorn.com/2017/09/25/many-to-many-relationships-in-ef-core-2-0-part-1-the-basics/
+link: https://blog.oneunicorn.com/2017/09/25/many-to-many-relationships-in-ef-core-2-0-part-1-the-basics/
 ---
 Also
 - [Part 2: Hiding as IEnumerable](https://blog.oneunicorn.com/2017/09/25/many-to-many-relationships-in-ef-core-2-0-part-2-hiding-as-ienumerable/)

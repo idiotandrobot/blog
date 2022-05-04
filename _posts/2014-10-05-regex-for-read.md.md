@@ -1,12 +1,11 @@
 ---
-layout: post
 tags: 
 - Markdown 
 - Regex
 date: 2014-10-05 17:30 +0100
 redirect_from: /2014/10/05/regex-for-read.md/
 ---
-A regex to parse [read.md](https://www.dropbox.com/s/63rmg23fwadtp4g/Read.md?dl=0)
+A regex to parse [read.md](/read/)
 
 {% gist 11ad93916abd62489d66 %}
 

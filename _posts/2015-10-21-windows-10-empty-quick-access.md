@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fixing Windows 10 File Explorer Quick access
 tags: 
 - Windows 10

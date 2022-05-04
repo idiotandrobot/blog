@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Xml Manipulation using PowerShell
-category: post
 tags:
 - PowerShell
 - Xml
