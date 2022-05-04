@@ -4,18 +4,18 @@ layout: default
 <article class="post">
 <h1>
 {% if page.link -%}
-{% include post/link.html title = page.title link = page.link %}
-{% elsif page.category == 'project' && site.github_user -%}
-<a href="https://github.com/{{ site.github_user }}/{{ page.title }}" class="github-project-link">{{ page.title }}</a>
+{% include post/link.html title = page.title link = page.link -%}
+{% elsif page.project -%}
+{% include post/project.html title = page.title project = page.project -%}
 {% else -%}
 {{ page.title }}
 {% endif -%}
 </h1>
-{% include post/meta.html %}
+{% include post/meta.html -%}
 <div class="entry">
 {{ content }}
 </div>
-{% include post/links.html links = page.links category = "" %}
+{% include post/links.html links = page.links category = "" -%}
 <div id="page-navigation"> 
 <div class="previous"> 
 {% if page.previous.url -%} 
