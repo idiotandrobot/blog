@@ -1,7 +1,6 @@
 ---
-layout: post
-title: petzold-code
-category: project
+title: Petzold Code
+project: petzold-code
 tags:
 - C#
 ---

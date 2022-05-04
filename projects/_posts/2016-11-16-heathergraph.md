@@ -1,7 +1,6 @@
 ---
-layout: post
-title: heathergraph
-category: project
+title: "Heathergraph: Raspberry Pi Email Print Server"
+project: heathergraph
 tags:
 - Python
 - Raspberry Pi

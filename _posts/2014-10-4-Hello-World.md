@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Setting up a blog using Jekyll on GitHub
 tags: 
 - GitHub 

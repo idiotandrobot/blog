@@ -1,7 +1,6 @@
 ---
-layout: post
-title: pebble-weather
-category: project
+title: "Pebble Watchface: Weather"
+project: pebble-weather
 tags:
 - Pebble
 - C

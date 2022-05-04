@@ -1,7 +1,6 @@
 ---
-layout: post
-title: InR-DOS
-category: project
+title: "Pebble Watchface: InR-DOS"
+project: InR-DOS
 tags:
 - Pebble
 - C

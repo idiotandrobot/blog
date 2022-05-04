@@ -1,7 +1,6 @@
 ---
-layout: post
-title: chrome-no-hot-network-questions
-category: project
+title: "Chrome Extension: No StackOverflow Hot Network Questions"
+project: chrome-no-hot-network-questions
 tags:
 - StackOverflow
 - Chrome

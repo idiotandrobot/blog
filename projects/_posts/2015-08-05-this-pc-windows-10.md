@@ -1,10 +1,8 @@
 ---
-layout: post
-title: thispc
-category: project
+title: This PC
+project: thispc
 tags: 
 - Windows 10 
 - C#
-
 ---
 When Windows 8.1 came out `Computer` in the Windows Explorer Navigation Pane was renamed to `This PC` and a load of User folder links were added to it.
