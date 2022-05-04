@@ -4,7 +4,6 @@ tags:
 - JavaScript
 - Python
 link: http://dangoldin.com/2013/08/26/extract-info-from-a-web-page-using-javascript/
+links:
+- ["GitHub: yahoo-ffl",https://github.com/dangoldin/yahoo-ffl]
 ---
-Also
-
-- [GitHub: yahoo-ffl](https://github.com/dangoldin/yahoo-ffl)
