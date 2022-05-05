@@ -6,6 +6,7 @@ tags:
 - C
 - JavaScript
 - HTML
+redirect_from: /InR-DOS-Pebble-Watchface/
 ---
 ![](https://github.com/idiotandrobot/InR-DOS/raw/master/screenshots/screenshot.png)
 

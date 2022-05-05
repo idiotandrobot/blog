@@ -6,6 +6,7 @@ tags:
 - C
 - JavaScript
 - HTML
+redirect_from: /yet-another-pebble-weather-app/
 ---
 ![](https://github.com/idiotandrobot/pebble-weather/raw/master/screenshots/screenshot.png)
 

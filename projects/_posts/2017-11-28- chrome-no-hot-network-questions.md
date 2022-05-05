@@ -7,6 +7,7 @@ tags:
 - Json
 - Css
 also:
-- 2017-11-28-no-stackexchange-hot-network-questions.md
+- 2017-11-28-no-stackexchange-hot-network-questions
+redirect_from: /chrome-no-hot-network-questions/
 ---
 Simple chrome extension to hide distracting sidebar elements on [StackOverflow](https://stackoverflow.com).
