@@ -2,10 +2,10 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-<!-- <meta http-equiv="refresh" content="0;url={{ page.redirect.to }}"> -->
+{% capture corrected_redirect %}{{ page.redirect.to | remove_first: site.baseurl }}{% endcapture -%}
+<!-- <meta http-equiv="refresh" content="0;url={{ corrected_redirect }}"> -->
 </head>
 <body>
-    {{ page.redirect.from }}
-    <a href="{{ page.redirect.to }}">{{ page.title }}</a>
+    <a href="{{ corrected_redirect }}">{{ page.title }}</a>
 </body>
 </html>
