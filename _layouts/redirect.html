@@ -2,7 +2,14 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-{% capture corrected_redirect %}{{ page.redirect.to | remove_first: site.baseurl }}{% endcapture -%}
+{% assign stringToCheck = page.redirect.to -%}
+{% assign startsWith = site.url -%}
+{% assign checkArray = stringToCheck | split:startsWith -%}
+{% if checkArray[0] == blank -%}
+{% assign corrected_redirect = page.redirect.to | remove_first: site.baseurl -%}
+{% else -%}
+{% assign corrected_redirect = page.redirect.to -%}
+{% endif -%}
 <meta http-equiv="refresh" content="0;url={{ corrected_redirect }}">
 </head>
 <body>
