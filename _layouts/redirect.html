@@ -2,7 +2,10 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-<!-- <meta http-equiv="refresh" content="0;url={{ page.redirect }}"> -->
+<!-- <meta http-equiv="refresh" content="0;url={{ page.redirect.to }}"> -->
 </head>
-<body><a href="{{ page.redirect }}">{{ page.title }}</a></body>
+<body>
+    {{ page.redirect.from }}
+    <a href="{{ page.redirect.to }}">{{ page.title }}</a>
+</body>
 </html>
