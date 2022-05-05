@@ -3,9 +3,11 @@
 <head>
 <title>{{ page.title }}</title>
 {% capture corrected_redirect %}{{ page.redirect.to | remove_first: site.baseurl }}{% endcapture -%}
-<!-- <meta http-equiv="refresh" content="0;url={{ corrected_redirect }}"> -->
+<meta http-equiv="refresh" content="0;url={{ corrected_redirect }}">
 </head>
 <body>
-    <a href="{{ corrected_redirect }}">{{ page.title }}</a>
+    This content should be <a href="{{ corrected_redirect }}">here</a> instead.
+    <br/>
+    But you should have been sent there automatically.
 </body>
 </html>
