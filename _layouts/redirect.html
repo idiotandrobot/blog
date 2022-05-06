@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-{% capture %}{{ corrected_redirect = page.redirect.to | remove_first: site.baseurl }}{% endcapture -%}
+{% capture corrected_redirect %}{{ page.redirect.to | remove_first: site.baseurl }}{% endcapture -%}
 <meta http-equiv="refresh" content="0;url={{ corrected_redirect }}">
 </head>
 <body>
