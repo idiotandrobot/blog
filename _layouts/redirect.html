@@ -2,18 +2,15 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-Redirect: {{ page.redirect }}<br/>
-From: {{ page.redirect.from }}<br/>
-To: {{ page.redirect.to }}<br/>
 {% if page.redirect.to -%}
-{% capture corrected_redirect %}{{ page.redirect.to | remove_first: site.baseurl }}{% endcapture -%}
+{% capture redirect %}{{ page.redirect.to | remove_first: site.baseurl }}{% endcapture -%}
 {% else -%}
-{% capture corrected_redirect %}{{ page.redirect }}{% endcapture -%}
+{% capture redirect %}{{ page.redirect }}{% endcapture -%}
 {% endif -%}
-<!-- <meta http-equiv="refresh" content="0;url={{ corrected_redirect }}"> -->
+<meta http-equiv="refresh" content="0;url={{ redirect }}">
 </head>
 <body>
-    This content should be at <a href="{{ corrected_redirect }}">{{ corrected_redirect }}</a> instead.
+    This content should be at <a href="{{ redirect }}">{{ redirect }}</a> instead.
     <br/>
     But you should have been sent there automatically.
 </body>
