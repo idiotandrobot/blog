@@ -1,7 +1,5 @@
 ---
 layout: read
-title: Read
-permalink: /read/
 ---
 
 **2022**
