@@ -6,6 +6,7 @@ permalink: /read/
 
 **2022**
 
+- **04-May** Clockwork City by Paul Crilley
 - **19-Apr** The True Queen by Zen Cho
 - **02-Mar** The Fallen Blade by Jon Courtenay Grimwood
 - **27-Mar** Periodic Tales by Hugh Aldersey-Williams
