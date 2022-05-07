@@ -5,7 +5,7 @@ tags:
 date: 2014-10-05 17:30 +0100
 redirect_from: /2014/10/05/regex-for-read.md/
 ---
-A regex to parse [read.md](/read/)
+A regex to parse [read.md]({{ site.baseurl }}{% link read.md %})
 
 {% gist 11ad93916abd62489d66 %}
 
