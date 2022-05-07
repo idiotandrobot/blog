@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="posts">
+{% for post in site.categories.notes -%}
+<article class="post">    
+<h1>
+{% include post/link.html title = "" link = post.link -%}
+{% include post/project.html title = "" project = post.project -%}
+<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+{% include post/meta.html -%}
+<div class="entry">
+{{ post.content }}
+</div>
+{% include post/links.html links = post.links -%}
+{% if post.content != post.excerpt -%}
+<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+{% endif -%}
+</article>
+{% endfor -%}
+</div>
