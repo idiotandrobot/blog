@@ -1,5 +1,5 @@
 ---
-title: XAMl Styles
+title: XAML Styles
 tags:
 - UWP
 - XAML
