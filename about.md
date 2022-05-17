@@ -10,7 +10,9 @@ Mainly C# developer
 
 Experimenting with [Jekyll](https://jekyllrb.com/) on [GitHub Pages](https://pages.github.com/).
 
-Blog [Project](https://github.com/idiotandrobot/blog) page on [GitHub](https://github.com).
+[Blog Project](https://github.com/idiotandrobot/blog) on [GitHub](https://github.com).
+
+[Latest Build](https://github.com/idiotandrobot/blog/actions)
 
 ### Contact me
 
