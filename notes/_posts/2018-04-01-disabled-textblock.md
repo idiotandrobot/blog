@@ -1,5 +1,5 @@
 ---
-title: \"Disabled\" TextBlock
+title: """Disabled"" TextBlock"
 tags: WPF
 links:
 - [Differences between Label and TextBlock,https://joshsmithonwpf.wordpress.com/2007/07/04/differences-between-label-and-textblock/]
