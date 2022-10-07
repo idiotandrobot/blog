@@ -5,5 +5,6 @@ tags:
 - My Naturewatch
 - WSL
 - SCP
+- Raspberry Pi
 ---
 `scp –r pi@mynaturewatchcamera:/home/pi/NaturewatchCameraServer/naturewatch_camera_server/static/data ~/Desktop/data`
