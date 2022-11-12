@@ -1,7 +1,7 @@
 ---
-title: Powershell vCard split
+title: PowerShell vCard split
 tags:
-- Powershell
+- PowerShell
 - vCard
 links:
 - ["StackOverflow: How can I split a text file using PowerShell?", https://stackoverflow.com/a/2646125/146360]
