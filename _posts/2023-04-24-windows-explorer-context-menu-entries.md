@@ -25,3 +25,5 @@ Add registry entries for folder and background context menu items
 
 ### New Keys/Values ###
 Add keys/values as per Folder Context Menu.
+
+### See Also ###
