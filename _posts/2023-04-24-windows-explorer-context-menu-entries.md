@@ -6,6 +6,8 @@ tags:
 links:
 - https://www.advancedinstaller.com/forums/viewtopic.php?t=49822
 ---
+Add registry entries for folder and background context menu items
+
 ## Folder Context Menu ##
 
 ### Root Key ###
