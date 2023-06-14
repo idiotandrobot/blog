@@ -6,7 +6,7 @@ tags:
 - Chrome
 - Json
 - Css
-also:
+links:
 - 2017-11-28-no-stackexchange-hot-network-questions
 redirect_from: /chrome-no-hot-network-questions/
 ---
