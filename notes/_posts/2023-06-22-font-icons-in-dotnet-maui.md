@@ -1,6 +1,7 @@
 ---
 title: Font Icons in .NET MAUI
 tags:
+- .NET
 - MAUI
 - Fonts
 - Icons
