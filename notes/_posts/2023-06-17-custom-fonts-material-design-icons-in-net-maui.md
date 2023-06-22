@@ -5,5 +5,6 @@ tags:
 - .NET
 - MAUI
 - Fonts
+- Icons
 - Material Design
 ---
