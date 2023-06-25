@@ -1,5 +1,5 @@
 ---
-title: "StackOverflow: How to create WPF System Tray Icon when no "Main" host window exists"
+title: "StackOverflow: How to create WPF System Tray Icon when no \"Main\" host window exists"
 link: https://stackoverflow.com/a/12677353/146360
 tags:
 - WPF
