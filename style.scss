@@ -109,10 +109,6 @@ img {
   max-width: 100%;
 }
 
-table, th, td {
-  border: 1px solid;
-}
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -371,9 +367,13 @@ kbd {
   padding: 3px;
   font-size: 75%;
   font-weight: 475;
-  background-color: #lightGray;
+  background-color: #darkGray;
   margin: 2px;
   white-space: nowrap;
+}
+
+table, th, td {
+  border: 1px solid;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
