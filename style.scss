@@ -109,6 +109,10 @@ img {
   max-width: 100%;
 }
 
+table, th, td {
+  border: 1px solid;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -367,7 +371,7 @@ kbd {
   padding: 3px;
   font-size: 75%;
   font-weight: 475;
-  background-color: #f8f8f8;
+  background-color: #lightGray;
   margin: 2px;
   white-space: nowrap;
 }
