@@ -13,9 +13,6 @@ tags:
 | Start pins | 32px | 40px | 48px | 64px | 80px | 96px | 256px | 
 
 **Note**
-```
-Apps should have, at the bare minimum: 16x16, 24x24, 32x32, 48x48, and 256x256.
-
-This covers the most common icon sizes, and by providing a 256px icon,
-ensures Windows should only ever scale your icon down, never up.
-```
+`Apps should have, at the bare minimum: 16x16, 24x24, 32x32, 48x48, and 256x256.`
+`This covers the most common icon sizes, and by providing a 256px icon,`
+`ensures Windows should only ever scale your icon down, never up.`
