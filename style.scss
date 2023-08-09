@@ -289,7 +289,7 @@ footer {
     color: $lightGray;
 }
 .meta a {
-    color: $darkGray;
+    color: $lightGray;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
@@ -362,12 +362,12 @@ footer {
 kbd {
   border-style: outset;
   border-width: 2px;
-  border-color: $lightGray;
+  border-color: $darkerGray;
   border-radius: 6px;
   padding: 3px;
   font-size: 75%;
   font-weight: 475;
-  background-color: $darkGray;
+  background-color: $lightGray;
   margin: 2px;
   white-space: nowrap;
 }
@@ -379,6 +379,10 @@ kbd {
     border-color: $lighterGray;
     padding: 8px;
   }
+  th {
+    font-weight: bold;
+  }
+  tr:nth-child(even) { background-color: $lightGray; }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
