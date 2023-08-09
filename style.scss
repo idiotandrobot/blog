@@ -112,11 +112,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterGray;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -145,7 +145,7 @@ img {
 
 .masthead {
   padding: 10px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $lighterGray;
   
   @include mobile {
     text-align: center;
@@ -232,7 +232,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 1em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $lighterGray;
 }
 
 .posts > .post:last-child {
@@ -267,9 +267,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid $lightGray;
+  border-bottom: 1px solid $lightGray;
+  background-color: $lighterGray;
 }
 
 footer {
@@ -286,30 +286,30 @@ footer {
     font-size: 13px;
     margin-left: 4px;
     margin-bottom: 4px;
-    color: #999;
+    color: $lightGray;
 }
 .meta a {
-    color: #999;
+    color: $darkGray;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
-.meta a:hover { color: #666 }
+.meta a:hover { color: $gray }
 .meta .date,
 .meta .tags,
 .meta .history,
 .meta .edit { padding-right: 10px }
 .meta .date:before,
 .meta .tags:before {
-    color: #ccc;
+    color: $lightGray;
     font: 1.1em FontAwesome;
     left: 0;
     margin-right: 5px;
 }
 .meta .history a:before,
 .meta .edit a:before {
-    color: #ccc;
+    color: $lightGray;
     font: 1.1em FontAwesome;
     left: 0;
     margin-right: 5px;
@@ -341,28 +341,28 @@ footer {
   margin: 0 8px 8px 0; }
   
 .tag-cloud a {
-    background: #ddd;
+    background: $lighterGray;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    box-shadow: 1px 1px 2px #ccc;
-    -moz-box-shadow: 1px 1px 2px #ccc;
-    -webkit-box-shadow: 1px 1px 2px #ccc;
-    color: #888;
+    box-shadow: 1px 1px 2px $lightGray;
+    -moz-box-shadow: 1px 1px 2px $lightGray;
+    -webkit-box-shadow: 1px 1px 2px $lightGray;
+    color: $darkGray;
     padding: 2px 6px 2px 6px;
     text-decoration: none; }
 
 .tag-cloud a:visited {
-  color: #888; }
+  color: $gray; }
 
 .tag-cloud a:hover {
-  background: #ccc;
-  color: #777; }
+  background: $lightGray;
+  color: $darkGray; }
 
 kbd {
   border-style: outset;
   border-width: 2px;
-  border-color: #999999;
+  border-color: $lightGray;
   border-radius: 6px;
   padding: 3px;
   font-size: 75%;
@@ -376,7 +376,7 @@ kbd {
   border-collapse: collapse;
   table, td, th {
     border: 1px solid;
-    border-color: $lightGray;
+    border-color: $lighterGray;
     padding: 8px;
   }
 }
