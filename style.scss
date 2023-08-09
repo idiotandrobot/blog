@@ -362,12 +362,12 @@ footer {
 kbd {
   border-style: outset;
   border-width: 2px;
-  border-color: $darkerGray;
+  border-color: $darkGray;
   border-radius: 6px;
   padding: 3px;
   font-size: 75%;
   font-weight: 475;
-  background-color: $lightGray;
+  background-color: $lighterGray;
   margin: 2px;
   white-space: nowrap;
 }
@@ -376,13 +376,15 @@ kbd {
   border-collapse: collapse;
   table, td, th {
     border: 1px solid;
-    border-color: $lighterGray;
+    border-color: $gray;
     padding: 8px;
   }
   th {
+    background-color: $lightGray;
+    color: white;
     font-weight: bold;
   }
-  tr:nth-child(even) { background-color: $lightGray; }
+  tr:nth-child(even) { background-color: $lighterGray; }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
