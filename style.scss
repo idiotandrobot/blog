@@ -367,7 +367,7 @@ kbd {
   padding: 3px;
   font-size: 75%;
   font-weight: 475;
-  background-color: #darkGray;
+  background-color: $darkGray;
   margin: 2px;
   white-space: nowrap;
 }
@@ -376,7 +376,7 @@ kbd {
   border-collapse: collapse;
   table, td, th {
     border: 1px solid;
-    border-color: #lightgray;
+    border-color: $lightgray;
     padding: 8px;
   }
 }
