@@ -372,10 +372,12 @@ kbd {
   white-space: nowrap;
 }
 
-.table table, .table th, .table td {
-	border: 1px solid;
-	border-color: #lightgray;
-	padding: 8px;
+.mdtable {
+        border-collapse: collapse;
+   > table, td, th {
+	   border: 1px solid;
+	   border-color: #lightgray;
+	   padding: 8px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
