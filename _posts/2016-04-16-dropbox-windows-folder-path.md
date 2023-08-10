@@ -1,5 +1,6 @@
 ---
 title: Dropbox Windows Folder Path
+gist: dbe3f27e023b74b54d774ff07a03306f
 tags:
 - C#
 - Dropbox
@@ -12,6 +13,3 @@ redirect_from:
 - /Windows-Dropbox-Folder-Path/
 ---
 The Dropbox folder path is stored in info.json in the Dropbox Application Data and Local Application Data folders.
-
-{% gist dbe3f27e023b74b54d774ff07a03306f %}
-
