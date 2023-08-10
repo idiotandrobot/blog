@@ -2,7 +2,7 @@
 {% for gist in include.gists -%}
 {% if gist[0] -%}
 {% assign title = gist[0] gist = gist[1] -%}
-{% include post/gist.html -%}
+{% include post/gist.html title = title gist = gist -%}
 {% else -%}
 {% include post/gist.html title = gist gist = gist -%}
 {% endif -%}
