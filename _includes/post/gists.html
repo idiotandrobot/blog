@@ -1,8 +1,9 @@
 {% if include.gists[0] and include.gists.size > 0 -%}
 {% for gist in include.gists -%}
 {% if gist[0] -%}
-{% assign title = gist[0] gist = gist[1] -%}
-{% include post/gist.html title = title gist = gist -%}
+{% assign title = gist[0] -%}
+{% assign gist = gist[1] -%}
+{% include post/gist.html -%}
 {% else -%}
 {% include post/gist.html title = gist gist = gist -%}
 {% endif -%}
