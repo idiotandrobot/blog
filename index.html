@@ -15,8 +15,10 @@ layout: default
 {%- else -%}      
 {{ post.excerpt }}
 {% endif -%}
-</div>
+{% include post/gist.html title = post.title gist = post.gist -%}
+{% include post/gists.html gists = post.gists -%}
 {% include post/links.html links = post.links -%}
+</div>
 {% if post.content != post.excerpt -%}
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 {% endif -%}
