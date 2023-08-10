@@ -5,6 +5,6 @@ tags:
 - WPF
 - NotifyIcon
 gists:
-- ["WPF NotifyIcon", 38ae2225f6ebc25676eb9e62aa82f38]
+- ["WPF NotifyIcon", 38ae2225f6ebc25676eb9e62aa82f38e]
 ---
 In .NET 5+ set `<UseWPF>true</UseWPF>` **and** `<UseWindowsForms>true</UseWindowsForms>` in the project file.
