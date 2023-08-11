@@ -3,7 +3,7 @@ title: Simple Listbox Ordering using a CollectionViewSource
 gist: d7c30aac470af4900cb5
 links:
 - ["CollectionViewSource is crazy useful for binding to filtered Observable Collections on Windows Phone 8",http://www.hanselman.com/blog/collectionviewsource-is-crazy-useful-for-binding-to-filtered-observable-collections-on-windows-phone-8]
-- ["Stack Overflow: How can I sort a ListBox using only XAML and no code-behind?",http://stackoverflow.com/questions/1280704/how-can-i-sort-a-listbox-using-only-xaml-and-no-code-behind)
+- ["Stack Overflow: How can I sort a ListBox using only XAML and no code-behind?",http://stackoverflow.com/questions/1280704/how-can-i-sort-a-listbox-using-only-xaml-and-no-code-behind]
 tags: 
 - XAML
 ---
