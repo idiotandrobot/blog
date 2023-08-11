@@ -1,5 +1,6 @@
 ---
 title: Mark .NET application to run as Administrator
+gist: 0238019079641b0ac5f735e66edb5c8b
 tags:
 - Visual Studio
 - .NET
@@ -12,8 +13,3 @@ links:
 ",https://stackoverflow.com/questions/12651124/difference-between-highestavailable-and-requireadministrator-in-manifest-in]
 ---
 Add an app.manifest file to the Project and use the `System.Security.Principal` namespace to check at runtime whether privileges have been provided.
-
-<noscript>
-  <a href="https://gist.github.com/0238019079641b0ac5f735e66edb5c8b">Gist: Mark .NET application to run as Administrator</a>
-</noscript>
-{% gist 0238019079641b0ac5f735e66edb5c8b %}
