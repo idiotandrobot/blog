@@ -4,7 +4,7 @@ title: Archive
 permalink: /archive/
 ---
 <div class="archives" itemscope itemtype="http://schema.org/Blog">
-{% for post in site.posts reverse -%}
+{% for post in site.posts | reverse -%}
 {% if post.layout == 'post' -%}
 {% capture date %}{{ post.date }}{% endcapture -%}
 {% capture this_year %}{{ date | date: "%Y" }}{% endcapture -%}

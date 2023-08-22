@@ -33,7 +33,7 @@ function toggle(id) {
 </li>
 {% endfor -%}
 {% endif -%}
-{% assign tags_list = nil -%}
+<!-- {% assign tags_list = nil -%} -->
 </ul>
 {% for tag in tags_list -%}
 <div id="{{ tag[0] }}" style="display: none">
