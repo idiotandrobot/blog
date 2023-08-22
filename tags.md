@@ -18,8 +18,11 @@ function toggle(id) {
 } 
 </script>
 <ul class="tag-cloud">
-{% assign tags_semi_sorted = site.tags | sort -%}
-{% assign tags_list = tags_semi_sorted | sort_natural -%}
+{% assign tags_unsorted = "" | split:"" %}
+{% for t in site.tags %}
+  {% assign tags_unsorted = tags_unsorted | push: t[0] %}
+{% endfor %}
+{% assign tags_list = tags_unsorted | sort_natural -%}
 {% if tags_list.first[0] == null -%}
 {% for tag in tags_list -%}
 <li id="{{ tag }}-tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: tags_list.size | plus: 70 }}%">
