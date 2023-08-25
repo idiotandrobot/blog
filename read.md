@@ -2,11 +2,36 @@
 layout: read
 ---
 
+**2023**
+
+- **25-Aug** The Eye of the World by Robert Jordan
+- **06-Aug** Leviathan Wakes by James S. A. Corey
+- **31-Jul** The Cruel Stars by John Birmingham
+- **22-Jul** British Rail by Christian Wolmar
+- **12-Jul** The Long Game by Ann Leckie
+- **04-Jul** A Desolation Called Peace by Arkady Martine
+- **27-Jun** Pandora's Star by Peter F. Hamilton
+- **16-Jun** Guards! Guards! by Terry Pratchett
+- **10-Jun** Chaos Rising by Timothy Zahn
+- **03-Jun**  Eyes of the Void by Adrian Tchaikovsky
+- **26-May** Beyond Measure by James Vincent 
+- **24-Apr** 84K by Claire North
+- **16-Apr** The Second Sleep by Robert Harris
+- **12-Apr** Shards of Earth by Adrian Tchaikovsky
+- **03-Apr** The Galaxy, and the Ground Within by Becky Chambers
+- **26-Mar** Terms of Enlistment by Marko Kloos
+- **22-Mar** The Collapsing Empire by John Scalzi
+- **14-Mar** Far from the Light of Heaven by Tade Thompson
+- **09-Mar** Red Heat by Alex Von Tunzelmann
+- **08-Feb** Unconquerable Sun by Kate Elliott
+- **19-Jan** Beyond the Hallowed Sky by Ken MacLeod
+- **11-Jan** Evil For Evil by K.J. Parker
+
 **2022**
 
 - **04-May** Clockwork City by Paul Crilley
 - **19-Apr** The True Queen by Zen Cho
-- **02-Mar** The Fallen Blade by Jon Courtenay Grimwood
+- **02-Apr** The Fallen Blade by Jon Courtenay Grimwood
 - **27-Mar** Periodic Tales by Hugh Aldersey-Williams
 - **22-Mar** The Green Man's Heir by Juliet E. McKenna
 - **14-Mar** The End of All Things by John Scalzi
