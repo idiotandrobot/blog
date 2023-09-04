@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **01-Sep** A Fire Upon the Deep by Vernor Vinge
 - **25-Aug** The Eye of the World by Robert Jordan
 - **06-Aug** Leviathan Wakes by James S. A. Corey
 - **31-Jul** The Cruel Stars by John Birmingham
