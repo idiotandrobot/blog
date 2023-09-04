@@ -14,7 +14,7 @@ layout: read
 - **27-Jun** Pandora's Star by Peter F. Hamilton
 - **16-Jun** Guards! Guards! by Terry Pratchett
 - **10-Jun** Chaos Rising by Timothy Zahn
-- **03-Jun**  Eyes of the Void by Adrian Tchaikovsky
+- **03-Jun** Eyes of the Void by Adrian Tchaikovsky
 - **26-May** Beyond Measure by James Vincent 
 - **24-Apr** 84K by Claire North
 - **16-Apr** The Second Sleep by Robert Harris
