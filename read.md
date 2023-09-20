@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **20-Sep** The Escapement by K. J. Parker
 - **13-Sep** A Deepness in the Sky by Vernor Vinge
 - **01-Sep** A Fire Upon the Deep by Vernor Vinge
 - **25-Aug** The Eye of the World by Robert Jordan
