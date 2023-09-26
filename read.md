@@ -30,7 +30,7 @@ layout: read
 - **09-Mar** Red Heat by Alex Von Tunzelmann
 - **08-Feb** Unconquerable Sun by Kate Elliott
 - **19-Jan** Beyond the Hallowed Sky by Ken MacLeod
-- **11-Jan** Evil For Evil by K.J. Parker
+- **11-Jan** Evil For Evil by K. J. Parker
 
 **2022**
 
