@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **26-Sep** Falling Bodies by Rebecca Roanhorse
 - **25-Sep** Void by Veronica Roth
 - **21-Sep** How It Unfolds by James S. A. Corey
 - **20-Sep** The Escapement by K. J. Parker
