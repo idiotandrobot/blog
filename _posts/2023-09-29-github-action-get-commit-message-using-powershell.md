@@ -5,5 +5,6 @@ links:
 tags:
 - PowerShell
 - GitHub Actions
-gist: ["Get Commit Message using PowerShell", 5292eb4b87f347598d3fddc46e948258]
+gists:
+- ["Get Commit Message using PowerShell", 5292eb4b87f347598d3fddc46e948258]
 ---
