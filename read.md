@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **01-Oct** The Hobbit by J. R. R. Tolkien
 - **30-Sep** Slow Time Between the Stars by John Scalzi
 - **29-Sep** Just Out of Jupiter's Reach by Nnedi Okorafor
 - **26-Sep** Falling Bodies by Rebecca Roanhorse
