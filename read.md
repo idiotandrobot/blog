@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **06-Oct** Infinity Gate by M. R. Carey
 - **04-Oct** She Who Became the Sun by Shelley Parker-Chan
 - **01-Oct** The Hobbit by J. R. R. Tolkien
 - **30-Sep** Slow Time Between the Stars by John Scalzi
