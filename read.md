@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **10-Oct** The Last Astronaut by David Wellington
 - **06-Oct** Infinity Gate by M. R. Carey
 - **04-Oct** She Who Became the Sun by Shelley Parker-Chan
 - **01-Oct** The Hobbit by J. R. R. Tolkien
