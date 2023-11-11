@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **11-Nov** The Outcast Blade by Jon Courtenay Grimwood 
 - **26-Oct** The Raven Tower by Ann Leckie
 - **10-Oct** The Last Astronaut by David Wellington
 - **06-Oct** Infinity Gate by M. R. Carey
