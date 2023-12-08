@@ -4,6 +4,7 @@ layout: read
 
 **2023**
 
+- **08-Dec** Against A Dark Background by Iain M. Banks
 - **11-Nov** The Outcast Blade by Jon Courtenay Grimwood 
 - **26-Oct** The Raven Tower by Ann Leckie
 - **10-Oct** The Last Astronaut by David Wellington
