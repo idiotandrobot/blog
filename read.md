@@ -2,6 +2,10 @@
 layout: read
 ---
 
+**2024**
+
+- **06-Jan** The Thousand Earths by Stephen Baxter
+
 **2023**
 
 - **29-Dec** Terry Pratchett by Rob Wilkins
