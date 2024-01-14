@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **14-Jan** After Atlas by Emma Newman
 - **06-Jan** The Thousand Earths by Stephen Baxter
 
 **2023**
