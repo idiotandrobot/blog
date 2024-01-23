@@ -15,5 +15,6 @@ links:
 - [GutenPrint, https://gimp-print.sourceforge.io/]
 - ["Reddit: Compile x86 .deb printer drivers into arm7 raspberry pi .deb", "https://www.reddit.com/r/linuxquestions/comments/iraai7/compile_x86_deb_printer_drivers_into_arm7/?rdt=38529"]
 - ["SuperUser: Debian ARM and Brother DCP195C with CUPS", "https://superuser.com/questions/781454/debian-arm-and-brother-dcp195c-with-cups"]
+- ["How to Use Your Brother Printer with CUPS on Raspberry Pi", https://medium.com/@alexanderbelov/how-to-use-your-brother-printer-with-cups-on-raspberry-pi-5b712cc2b4e6]
 ---
 Setting up CUPS isn't necessary with the current Raspberry Pi OS image. Working drivers for ARM are the main problem.
