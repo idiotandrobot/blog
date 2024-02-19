@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **19-Feb** Babel by R. F. Kuang
 - **28-Jan** The Doors of Eden by Adrian Tchaikovsky
 - **14-Jan** After Atlas by Emma Newman
 - **06-Jan** The Thousand Earths by Stephen Baxter
