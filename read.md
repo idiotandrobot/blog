@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **09-Mar** Master and Commander by Patrick O'Brian
 - **19-Feb** Babel by R. F. Kuang
 - **28-Jan** The Doors of Eden by Adrian Tchaikovsky
 - **14-Jan** After Atlas by Emma Newman
