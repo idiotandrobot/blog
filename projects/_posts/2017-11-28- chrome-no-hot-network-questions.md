@@ -2,10 +2,10 @@
 title: "Chrome Extension: No StackOverflow Hot Network Questions"
 project: chrome-no-hot-network-questions
 tags:
-- StackOverflow
+- Stack Overflow
 - Chrome
-- Json
-- Css
+- JSON
+- CSS
 links:
 - 2017-11-28-no-stackexchange-hot-network-questions
 redirect_from: /chrome-no-hot-network-questions/
