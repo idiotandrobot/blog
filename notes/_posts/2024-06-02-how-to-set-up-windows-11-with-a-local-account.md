@@ -5,7 +5,6 @@ tags:
 - Microsoft
 ---
 During Windows setup:-
-
 1. <kbd>Shift</kbd> + <kbd>F10</kbd> to open command prompt.
 2. Enter `oobe\bypassnro` command.
 3. Setup will restart with "*I don't have internet*" option at network selection.
