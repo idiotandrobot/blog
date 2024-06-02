@@ -5,6 +5,7 @@ tags:
 - Windows
 - Office
 - Cut and Paste
+- Keyboard Shortcut
 ---
 Paste plain text in MS Office
 <kbd>ALT</kbd>, <kbd>H</kbd>, <kbd>V</kbd>, <kbd>T</kbd>
