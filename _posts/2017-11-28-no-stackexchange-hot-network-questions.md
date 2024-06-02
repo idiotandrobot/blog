@@ -1,8 +1,8 @@
 ---
 title: Hide StackOverflow "Hot Network Questions" in Chrome
 tags:
-- Json
-- Css
+- JSON
+- CSS
 - Chrome
 link: https://meta.stackexchange.com/a/272950/376244
 ---
