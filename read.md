@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **25-Jun** The Children of the Sky by Vernor Vinge
 - **16-Jun** The Sky Road by Ken MacLeod
 - **05-Jun** Lords of Uncreation by Adrian Tchaikovsky
 - **19-Mar** Post Captain by Patrick O'Brian
