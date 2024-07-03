@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **03-Jul** HMS Surprise by Patrick O'Brian
 - **25-Jun** The Children of the Sky by Vernor Vinge
 - **16-Jun** The Sky Road by Ken MacLeod
 - **05-Jun** Lords of Uncreation by Adrian Tchaikovsky
