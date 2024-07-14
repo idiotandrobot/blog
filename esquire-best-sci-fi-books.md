@@ -1,8 +1,7 @@
 ---
+title: Esquire - The 75 Best Sci-Fi Books of All Time
 layout: page
 ---
-
-[Esquire - The 75 Best Sci-Fi Books of All Time](https://www.esquire.com/entertainment/books/g39358054/best-sci-fi-books/)
 
 01. **Frankenstein** by Mary Shelley
 02. **Dune** by Frank Herbert
@@ -35,7 +34,7 @@ layout: page
 29. **Dhalgren** by Samuel R. Delany
 30. **In Ascension** by Martin MacInnes
 31. **The Stand** by Stephen King
-32. **Orbit Ancillary Justice** by Ann Leckie
+32. **Ancillary Justice** by Ann Leckie
 33. **A Memory Called Empire** by Arkady Martine
 34. **The City &amp; The City** by China Miéville
 35. **Radiance** by Catherynne M. Valente
@@ -79,3 +78,5 @@ layout: page
 73. **Redshirts** by John Scalzi
 74. **The Calculating Stars** by Mary Robinette Kowal
 75. **The Echo Wife** by Sarah Gailey
+
+[Esquire - The 75 Best Sci-Fi Books of All Time](https://www.esquire.com/entertainment/books/g39358054/best-sci-fi-books/)
