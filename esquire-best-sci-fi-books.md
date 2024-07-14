@@ -1,5 +1,5 @@
 ---
-layout: read
+layout: page
 ---
 
 [Esquire - The 75 Best Sci-Fi Books of All Time](https://www.esquire.com/entertainment/books/g39358054/best-sci-fi-books/)
