@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **17-Jul** The Rosewater Insurrection by Tade Thompson
 - **10-Jul** Before Mars by Emma Newman
 - **03-Jul** HMS Surprise by Patrick O'Brian
 - **25-Jun** The Children of the Sky by Vernor Vinge
