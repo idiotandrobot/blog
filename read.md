@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **25-Aug** Men at Arms by Terry Pratchett
 - **13-Aug** Saevus Corax Deals with the Dead by K. J. Parker
 - **17-Jul** The Rosewater Insurrection by Tade Thompson
 - **10-Jul** Before Mars by Emma Newman
