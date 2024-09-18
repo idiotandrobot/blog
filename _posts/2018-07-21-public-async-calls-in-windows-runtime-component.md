@@ -3,7 +3,7 @@ title: Using async keyword in windows runtime components
 tags:
 - C#
 - UWP
-- async/await
+- Async
 links:
 - ["StackOverflow: Async Calls in UWP Background Application",https://stackoverflow.com/questions/45881751/async-calls-in-uwp-background-application]
 - ["MSDN: Exposing .NET tasks as WinRT asynchronous operations",https://blogs.msdn.microsoft.com/windowsappdev/2012/06/14/exposing-net-tasks-as-winrt-asynchronous-operations/]
