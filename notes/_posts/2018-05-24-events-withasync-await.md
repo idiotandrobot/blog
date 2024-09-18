@@ -1,7 +1,7 @@
 ---
 title: Events with async/await
 tags:
-- async/await
+- Async
 links:
 - ["Parallel Computing - It's All About the SynchronizationContext","https://docs.microsoft.com/en-us/archive/msdn-magazine/2011/february/msdn-magazine-parallel-computing-it-s-all-about-the-synchronizationcontext"]
 - ["TaskCompletionSource<TResult> Class","https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.taskcompletionsource-1?redirectedfrom=MSDN&view=net-6.0"]
