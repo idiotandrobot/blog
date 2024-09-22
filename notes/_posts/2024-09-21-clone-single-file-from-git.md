@@ -9,10 +9,10 @@ Links:
 ---
 1. ```git init```
 2. ```git remote add origin <remote-uri>```
-3. ```git sparse-checkout set``` [^1]
+3. ```git sparse-checkout set``` [^¹]
 4. ```git sparse-checkout add <file-path>```
-5. ```git fetch origin main``` [^2]
+5. ```git fetch origin main``` [^²]
 6. ```git checkout main```
 
-[^1]: This is a simpler sparse initialisation, but includes more files by default.
-[^2]: This will download the complete repo history so make sure you have space.
+[^¹]: This is a simpler sparse initialisation, but includes more files by default.
+[^²]: This will, still, download the complete repo history.
