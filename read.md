@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **03-Oct** Sea of Tranquility by Emily St. John Mandel
 - **30-Sep** The Siege of Burning Grass by Premee Mohamed
 - **28-Sep** Salvation by Peter F. Hamilton
 - **25-Aug** Men at Arms by Terry Pratchett
