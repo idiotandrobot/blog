@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **30-Oct** Translation State by Ann Leckie
 - **14-Oct** The Two of Swords II by K. J. Parker
 - **03-Oct** Sea of Tranquility by Emily St. John Mandel
 - **30-Sep** The Siege of Burning Grass by Premee Mohamed
