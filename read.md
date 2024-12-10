@@ -4,6 +4,7 @@ layout: read
 
 **2024**
 
+- **10-Dec** Judas Unchained by Peter F. Hamilton
 - **06-Oct** Night Watch by Terry Pratchett
 - **30-Oct** Translation State by Ann Leckie
 - **14-Oct** The Two of Swords II by K. J. Parker
