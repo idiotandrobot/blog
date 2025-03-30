@@ -8,6 +8,7 @@ During Windows setup:-
 1. <kbd>Shift</kbd> + <kbd>F10</kbd> to open command prompt.
 2. `>oobe\bypassnro`
 3. Setup will restart with "*I don't have internet*" option at network selection.
+
 <!--
 Notes
 - https://www.windowscentral.com/software-apps/windows-11/microsoft-will-force-windows-11-installs-to-use-a-microsoft-account-confirms-removal-of-popular-setup-bypass
