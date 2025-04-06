@@ -4,4 +4,4 @@ tags:
 - Windows 11
 - Windows 10
 ---
-`fsutil resource setautoreset true C:\
+```fsutil resource setautoreset true C:\```
