@@ -10,7 +10,7 @@ layout: read
 
 - **25-Dec** The Obelisk Gate by N. K. Jemisin
 - **10-Dec** Judas Unchained by Peter F. Hamilton
-- **06-Oct** Night Watch by Terry Pratchett
+- **06-Nov** Night Watch by Terry Pratchett
 - **30-Oct** Translation State by Ann Leckie
 - **14-Oct** The Two of Swords II by K. J. Parker
 - **03-Oct** Sea of Tranquility by Emily St. John Mandel
