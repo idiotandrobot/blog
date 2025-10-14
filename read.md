@@ -2,6 +2,10 @@
 layout: read
 ---
 
+**2025**
+
+- **14-Oct** Surface Detail by Iain M. Banks
+
 **2024**
 
 - **25-Dec** The Obelisk Gate by N. K. Jemisin
