@@ -4,6 +4,7 @@ layout: read
 
 **2025**
 
+- **06 Nov** Pines by Blake Crouch
 - **14-Oct** Surface Detail by Iain M. Banks
 
 **2024**
