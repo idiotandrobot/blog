@@ -2,6 +2,10 @@
 layout: read
 ---
 
+**2026**
+
+- **05-Jan** Atlas Alone by Emma Newman
+
 **2025**
 
 - **06 Nov** Pines by Blake Crouch
