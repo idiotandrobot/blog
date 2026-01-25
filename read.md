@@ -4,6 +4,7 @@ layout: read
 
 **2026**
 
+- **25-Jan** Children of Memory by Adrian Tchaikovsky 
 - **05-Jan** Atlas Alone by Emma Newman
 
 **2025**
