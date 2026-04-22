@@ -4,6 +4,7 @@ layout: read
 
 **2026**
 
+- **22-Apr** Venomous Lumpsucker by Ned Beauman
 - **08-Apr** Project Hail Mary by Andy Weir
 - **23-Mar** The Anglo-Saxons by Marc Morris
 - **25-Jan** Children of Memory by Adrian Tchaikovsky 
