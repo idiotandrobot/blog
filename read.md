@@ -4,6 +4,7 @@ layout: read
 
 **2026**
 
+- **29-Oct** The Shattering Peace by John Scalzi
 - **22-Oct** Mauritius Command by Patrick O'Brian
 - **22-Apr** Venomous Lumpsucker by Ned Beauman
 - **08-Apr** Project Hail Mary by Andy Weir
