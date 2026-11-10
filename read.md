@@ -4,6 +4,7 @@ layout: read
 
 **2026**
 
+- **10-Nov** Sister Svangerd and the Not Quite Dead by K. J. Parker
 - **29-Oct** The Shattering Peace by John Scalzi
 - **22-Oct** Mauritius Command by Patrick O'Brian
 - **22-Apr** Venomous Lumpsucker by Ned Beauman
